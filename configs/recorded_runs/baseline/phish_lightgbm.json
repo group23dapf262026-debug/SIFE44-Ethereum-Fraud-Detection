@@ -1,0 +1,47 @@
+{
+  "study": "released_x14_tabular_fix_v3",
+  "dataset": "Phish",
+  "model": "lightgbm",
+  "arm": "X14",
+  "width": 14,
+  "profile": "reference",
+  "fixed_config": {
+    "n_estimators": 300,
+    "learning_rate": 0.01,
+    "num_leaves": 31,
+    "class_weight": null
+  },
+  "model_seeds": [
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "split": "unchanged released train/val/test masks; no resplitting or cohort filtering",
+  "hyperparameter_search": false,
+  "decision": "score1>0.5; exact tie class0",
+  "preprocessing": "raw X14; no scaler",
+  "class_weight_scope": "unweighted",
+  "paper_status": "accepted-study fixed LightGBM; original paper reports search space, not recovered per-dataset winning settings",
+  "test_policy": "fit and lock all five seeds before TEST scoring; evaluate saved estimators only",
+  "source_columns": [
+    "bal_c",
+    "V_inv_c",
+    "V_return_c",
+    "N_inv_c",
+    "N_return_c",
+    "V_meaninv_c",
+    "V_meanreturn_c",
+    "bal_t",
+    "V_inv_t",
+    "V_return_t",
+    "N_inv_t",
+    "N_return_t",
+    "V_meaninv_t",
+    "V_meanreturn_t"
+  ],
+  "setting": "static released benchmark; known Phish address conflict retained and disclosed",
+  "development_provenance": "prior corpus results seen; no claim of a previously unseen test corpus",
+  "score_interpretation": "uncalibrated classifier score"
+}

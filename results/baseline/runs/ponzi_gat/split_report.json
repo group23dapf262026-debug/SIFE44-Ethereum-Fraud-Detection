@@ -1,0 +1,23 @@
+{
+  "dataset": "Ponzi",
+  "target": "CA",
+  "rule": "unchanged released masks; no resplitting",
+  "sizes": {
+    "train": 804,
+    "validation": 269,
+    "test": 269
+  },
+  "positives": {
+    "train": 115,
+    "validation": 38,
+    "test": 38
+  },
+  "address_intersections": {
+    "train_validation": [],
+    "train_test": [],
+    "validation_test": []
+  },
+  "unique_addresses": 1342,
+  "removed_ids": [],
+  "exact_paper_table_run_recovered": false
+}

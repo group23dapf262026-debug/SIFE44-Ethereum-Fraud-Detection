@@ -1,0 +1,426 @@
+{
+  "identity": "98adb0d3670e3b453826fac83608c9405a56e138f15c3fda35ad83b7af24b921",
+  "fits": [
+    {
+      "identity": "98adb0d3670e3b453826fac83608c9405a56e138f15c3fda35ad83b7af24b921",
+      "seed": 12,
+      "config": {
+        "n_estimators": 300,
+        "learning_rate": 0.01,
+        "num_leaves": 31,
+        "class_weight": null
+      },
+      "profile": "reference",
+      "detail": {
+        "train_class_counts": [
+          689,
+          115
+        ],
+        "resolved_train_class_weights": {
+          "0": 1.0,
+          "1": 1.0
+        },
+        "train_predicted_positives": 98,
+        "train_single_class": false,
+        "validation_predicted_positives": 31,
+        "n_iter": null,
+        "scaler_fit_rows": null,
+        "input_contract": "call input_frame(raw_source14,model,profile) before saved estimator prediction",
+        "feature_names": [
+          "bal_c",
+          "V_inv_c",
+          "V_return_c",
+          "N_inv_c",
+          "N_return_c",
+          "V_meaninv_c",
+          "V_meanreturn_c",
+          "bal_t",
+          "V_inv_t",
+          "V_return_t",
+          "N_inv_t",
+          "N_return_t",
+          "V_meaninv_t",
+          "V_meanreturn_t"
+        ]
+      },
+      "training": {
+        "macro_f1": 0.9540007067494574,
+        "micro_f1": 0.9788557213930348,
+        "binary_f1": 0.92018779342723,
+        "precision": 1.0,
+        "recall": 0.8521739130434782,
+        "accuracy": 0.9788557213930348,
+        "fpr": 0.0,
+        "average_precision": 0.9944563030782726,
+        "roc_auc": 0.9990155865463496,
+        "tn": 689,
+        "fp": 0,
+        "fn": 17,
+        "tp": 98,
+        "n": 804
+      },
+      "validation": {
+        "macro_f1": 0.7921881276845586,
+        "micro_f1": 0.9070631970260223,
+        "binary_f1": 0.6376811594202899,
+        "precision": 0.7096774193548387,
+        "recall": 0.5789473684210527,
+        "accuracy": 0.9070631970260223,
+        "fpr": 0.03896103896103896,
+        "average_precision": 0.6627442494533875,
+        "roc_auc": 0.8570289359763045,
+        "tn": 222,
+        "fp": 9,
+        "fn": 16,
+        "tp": 22,
+        "n": 269
+      },
+      "training_seconds": 1.1440014999998311,
+      "warnings": [],
+      "files": {
+        "estimator.joblib": "b0fc2aba2e59f7fce21a066e44d0fa51995c1afa848ef53b9d5561108688f4eb"
+      }
+    },
+    {
+      "identity": "98adb0d3670e3b453826fac83608c9405a56e138f15c3fda35ad83b7af24b921",
+      "seed": 13,
+      "config": {
+        "n_estimators": 300,
+        "learning_rate": 0.01,
+        "num_leaves": 31,
+        "class_weight": null
+      },
+      "profile": "reference",
+      "detail": {
+        "train_class_counts": [
+          689,
+          115
+        ],
+        "resolved_train_class_weights": {
+          "0": 1.0,
+          "1": 1.0
+        },
+        "train_predicted_positives": 98,
+        "train_single_class": false,
+        "validation_predicted_positives": 31,
+        "n_iter": null,
+        "scaler_fit_rows": null,
+        "input_contract": "call input_frame(raw_source14,model,profile) before saved estimator prediction",
+        "feature_names": [
+          "bal_c",
+          "V_inv_c",
+          "V_return_c",
+          "N_inv_c",
+          "N_return_c",
+          "V_meaninv_c",
+          "V_meanreturn_c",
+          "bal_t",
+          "V_inv_t",
+          "V_return_t",
+          "N_inv_t",
+          "N_return_t",
+          "V_meaninv_t",
+          "V_meanreturn_t"
+        ]
+      },
+      "training": {
+        "macro_f1": 0.9540007067494574,
+        "micro_f1": 0.9788557213930348,
+        "binary_f1": 0.92018779342723,
+        "precision": 1.0,
+        "recall": 0.8521739130434782,
+        "accuracy": 0.9788557213930348,
+        "fpr": 0.0,
+        "average_precision": 0.9944563030782726,
+        "roc_auc": 0.9990155865463496,
+        "tn": 689,
+        "fp": 0,
+        "fn": 17,
+        "tp": 98,
+        "n": 804
+      },
+      "validation": {
+        "macro_f1": 0.7921881276845586,
+        "micro_f1": 0.9070631970260223,
+        "binary_f1": 0.6376811594202899,
+        "precision": 0.7096774193548387,
+        "recall": 0.5789473684210527,
+        "accuracy": 0.9070631970260223,
+        "fpr": 0.03896103896103896,
+        "average_precision": 0.6627442494533875,
+        "roc_auc": 0.8570289359763045,
+        "tn": 222,
+        "fp": 9,
+        "fn": 16,
+        "tp": 22,
+        "n": 269
+      },
+      "training_seconds": 1.2442516000000978,
+      "warnings": [],
+      "files": {
+        "estimator.joblib": "cb145cc1c8665eeb3a3c461498ff5a59a5877ef9b8ede1cfd1cfd13faa5c4829"
+      }
+    },
+    {
+      "identity": "98adb0d3670e3b453826fac83608c9405a56e138f15c3fda35ad83b7af24b921",
+      "seed": 14,
+      "config": {
+        "n_estimators": 300,
+        "learning_rate": 0.01,
+        "num_leaves": 31,
+        "class_weight": null
+      },
+      "profile": "reference",
+      "detail": {
+        "train_class_counts": [
+          689,
+          115
+        ],
+        "resolved_train_class_weights": {
+          "0": 1.0,
+          "1": 1.0
+        },
+        "train_predicted_positives": 98,
+        "train_single_class": false,
+        "validation_predicted_positives": 31,
+        "n_iter": null,
+        "scaler_fit_rows": null,
+        "input_contract": "call input_frame(raw_source14,model,profile) before saved estimator prediction",
+        "feature_names": [
+          "bal_c",
+          "V_inv_c",
+          "V_return_c",
+          "N_inv_c",
+          "N_return_c",
+          "V_meaninv_c",
+          "V_meanreturn_c",
+          "bal_t",
+          "V_inv_t",
+          "V_return_t",
+          "N_inv_t",
+          "N_return_t",
+          "V_meaninv_t",
+          "V_meanreturn_t"
+        ]
+      },
+      "training": {
+        "macro_f1": 0.9540007067494574,
+        "micro_f1": 0.9788557213930348,
+        "binary_f1": 0.92018779342723,
+        "precision": 1.0,
+        "recall": 0.8521739130434782,
+        "accuracy": 0.9788557213930348,
+        "fpr": 0.0,
+        "average_precision": 0.9944563030782726,
+        "roc_auc": 0.9990155865463496,
+        "tn": 689,
+        "fp": 0,
+        "fn": 17,
+        "tp": 98,
+        "n": 804
+      },
+      "validation": {
+        "macro_f1": 0.7921881276845586,
+        "micro_f1": 0.9070631970260223,
+        "binary_f1": 0.6376811594202899,
+        "precision": 0.7096774193548387,
+        "recall": 0.5789473684210527,
+        "accuracy": 0.9070631970260223,
+        "fpr": 0.03896103896103896,
+        "average_precision": 0.6627442494533875,
+        "roc_auc": 0.8570289359763045,
+        "tn": 222,
+        "fp": 9,
+        "fn": 16,
+        "tp": 22,
+        "n": 269
+      },
+      "training_seconds": 1.2439682000003813,
+      "warnings": [],
+      "files": {
+        "estimator.joblib": "850d2ab73cfd1b0aa9cecaee61718483cce275107bf685568f3ffa633ccc11e2"
+      }
+    },
+    {
+      "identity": "98adb0d3670e3b453826fac83608c9405a56e138f15c3fda35ad83b7af24b921",
+      "seed": 15,
+      "config": {
+        "n_estimators": 300,
+        "learning_rate": 0.01,
+        "num_leaves": 31,
+        "class_weight": null
+      },
+      "profile": "reference",
+      "detail": {
+        "train_class_counts": [
+          689,
+          115
+        ],
+        "resolved_train_class_weights": {
+          "0": 1.0,
+          "1": 1.0
+        },
+        "train_predicted_positives": 98,
+        "train_single_class": false,
+        "validation_predicted_positives": 31,
+        "n_iter": null,
+        "scaler_fit_rows": null,
+        "input_contract": "call input_frame(raw_source14,model,profile) before saved estimator prediction",
+        "feature_names": [
+          "bal_c",
+          "V_inv_c",
+          "V_return_c",
+          "N_inv_c",
+          "N_return_c",
+          "V_meaninv_c",
+          "V_meanreturn_c",
+          "bal_t",
+          "V_inv_t",
+          "V_return_t",
+          "N_inv_t",
+          "N_return_t",
+          "V_meaninv_t",
+          "V_meanreturn_t"
+        ]
+      },
+      "training": {
+        "macro_f1": 0.9540007067494574,
+        "micro_f1": 0.9788557213930348,
+        "binary_f1": 0.92018779342723,
+        "precision": 1.0,
+        "recall": 0.8521739130434782,
+        "accuracy": 0.9788557213930348,
+        "fpr": 0.0,
+        "average_precision": 0.9944563030782726,
+        "roc_auc": 0.9990155865463496,
+        "tn": 689,
+        "fp": 0,
+        "fn": 17,
+        "tp": 98,
+        "n": 804
+      },
+      "validation": {
+        "macro_f1": 0.7921881276845586,
+        "micro_f1": 0.9070631970260223,
+        "binary_f1": 0.6376811594202899,
+        "precision": 0.7096774193548387,
+        "recall": 0.5789473684210527,
+        "accuracy": 0.9070631970260223,
+        "fpr": 0.03896103896103896,
+        "average_precision": 0.6627442494533875,
+        "roc_auc": 0.8570289359763045,
+        "tn": 222,
+        "fp": 9,
+        "fn": 16,
+        "tp": 22,
+        "n": 269
+      },
+      "training_seconds": 1.2942905999998402,
+      "warnings": [],
+      "files": {
+        "estimator.joblib": "6718f493c980ecddb3b3e287d5dd22b1a147ae3e52874978ffd5ed10786504fd"
+      }
+    },
+    {
+      "identity": "98adb0d3670e3b453826fac83608c9405a56e138f15c3fda35ad83b7af24b921",
+      "seed": 16,
+      "config": {
+        "n_estimators": 300,
+        "learning_rate": 0.01,
+        "num_leaves": 31,
+        "class_weight": null
+      },
+      "profile": "reference",
+      "detail": {
+        "train_class_counts": [
+          689,
+          115
+        ],
+        "resolved_train_class_weights": {
+          "0": 1.0,
+          "1": 1.0
+        },
+        "train_predicted_positives": 98,
+        "train_single_class": false,
+        "validation_predicted_positives": 31,
+        "n_iter": null,
+        "scaler_fit_rows": null,
+        "input_contract": "call input_frame(raw_source14,model,profile) before saved estimator prediction",
+        "feature_names": [
+          "bal_c",
+          "V_inv_c",
+          "V_return_c",
+          "N_inv_c",
+          "N_return_c",
+          "V_meaninv_c",
+          "V_meanreturn_c",
+          "bal_t",
+          "V_inv_t",
+          "V_return_t",
+          "N_inv_t",
+          "N_return_t",
+          "V_meaninv_t",
+          "V_meanreturn_t"
+        ]
+      },
+      "training": {
+        "macro_f1": 0.9540007067494574,
+        "micro_f1": 0.9788557213930348,
+        "binary_f1": 0.92018779342723,
+        "precision": 1.0,
+        "recall": 0.8521739130434782,
+        "accuracy": 0.9788557213930348,
+        "fpr": 0.0,
+        "average_precision": 0.9944563030782726,
+        "roc_auc": 0.9990155865463496,
+        "tn": 689,
+        "fp": 0,
+        "fn": 17,
+        "tp": 98,
+        "n": 804
+      },
+      "validation": {
+        "macro_f1": 0.7921881276845586,
+        "micro_f1": 0.9070631970260223,
+        "binary_f1": 0.6376811594202899,
+        "precision": 0.7096774193548387,
+        "recall": 0.5789473684210527,
+        "accuracy": 0.9070631970260223,
+        "fpr": 0.03896103896103896,
+        "average_precision": 0.6627442494533875,
+        "roc_auc": 0.8570289359763045,
+        "tn": 222,
+        "fp": 9,
+        "fn": 16,
+        "tp": 22,
+        "n": 269
+      },
+      "training_seconds": 1.2780501000002005,
+      "warnings": [],
+      "files": {
+        "estimator.joblib": "20b70236eb1a1f8c9b171647d2d793177fb2aff54329f7e4649f492a00cc482d"
+      }
+    }
+  ],
+  "files": {
+    "protocol.json": "d5a0a2396081cc28cbae93aebe85c818ef004152d63a55783d52b550ed7e609e",
+    "test_membership.csv": "43c06654481358e704e57e1337660664fb242634829354a3beb6ac16fd4e871e",
+    "train_membership.csv": "9f6ff828562feec2f28ede1367c29f365e2dcee26dc626ee8a15ae018f076c39",
+    "validation_membership.csv": "d5f7a3d8919446c3e86dedf51d2d86171677899cf7a4a12d355ccab69bbe74e5",
+    "fits/seed_12/estimator.joblib": "b0fc2aba2e59f7fce21a066e44d0fa51995c1afa848ef53b9d5561108688f4eb",
+    "fits/seed_12/fit.json": "0d542ef732215da7e3c1b1d26e1610476c459dcc57d90947ecdf2f7aeb1d8573",
+    "fits/seed_13/estimator.joblib": "cb145cc1c8665eeb3a3c461498ff5a59a5877ef9b8ede1cfd1cfd13faa5c4829",
+    "fits/seed_13/fit.json": "5c27ed2316320c3521b274a063088564513b8fd874378fb783b43e4497cd704f",
+    "fits/seed_14/estimator.joblib": "850d2ab73cfd1b0aa9cecaee61718483cce275107bf685568f3ffa633ccc11e2",
+    "fits/seed_14/fit.json": "9b1325d18875c5eeffbeb80dc752d1dd0452714f713247dc3fd2568039c4f986",
+    "fits/seed_15/estimator.joblib": "6718f493c980ecddb3b3e287d5dd22b1a147ae3e52874978ffd5ed10786504fd",
+    "fits/seed_15/fit.json": "dd8a2c26f1be7693a00c9c460a0fb4e83e6999ed76339a260f07708d2601e353",
+    "fits/seed_16/estimator.joblib": "20b70236eb1a1f8c9b171647d2d793177fb2aff54329f7e4649f492a00cc482d",
+    "fits/seed_16/fit.json": "fb96716b2ba644a5d13d8ff927fa28f64e23f68151de81165bd5313a14589c61",
+    "cache/train/roots.json": "23e73f6fd9a5948647fcf626e437bfa11c63ee55e37de57ec2ff81a75f84b029",
+    "cache/train/roots.npz": "b0934e6a98c42df0530da6ba75cbcaf9e860d080600a4a85531be4f4a425d007",
+    "cache/validation/roots.json": "8ade4ab6b808767c9afb8d30e53e71c56710e17851d55c8d08edf6624c3c2e95",
+    "cache/validation/roots.npz": "67851fad7fd1297f0db6cf59f38db53d7d45e06353e888013b9e60d42314b479"
+  },
+  "test_scored_at_lock": false
+}

@@ -1,0 +1,771 @@
+{
+  "spdx_identifier": "MIT",
+  "copyright_year": 2026,
+  "copyright_holders": "Duy Loi Duong, Thanh Dat Tran, Duy Luu Hoang, Minh Huy Tran, and Nhat-Tung Le",
+  "scope": "Only explicitly listed author-owned files and feature cells",
+  "full_files": [
+    {
+      "path": "DATA.md",
+      "sha256": "eecb48b08621fe2710522617753db9e0026ab77274fbd0536c5eaa35916f6eec"
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "c20bee29952e1f6aa1629a46e408156584b1e421eee10b1b04e4cf218e2ee9f8"
+    },
+    {
+      "path": "README.md",
+      "sha256": "4022bce40e6f8a774f31852359ae47dd09d81b37422be4ef6d268bee49149a39"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "632860019284ae4c150144f077c30921975f6c128b27241af8586377e9ac9ad9"
+    },
+    {
+      "path": "code/analysis/original/analyze.py",
+      "sha256": "5d3e50703f190bc8b97ef2e8bfd68078c34f9d146ee586239c6ece74ea7ee4bb"
+    },
+    {
+      "path": "code/analysis/original/test_analysis.py",
+      "sha256": "700d14749e93d9d6442bf69b86faf79af6d742f19cb2e8c254c8c1c1dfb8f2ea"
+    },
+    {
+      "path": "code/analysis/reproduce_matching.py",
+      "sha256": "b3e89c6460c02849f8be33ba4e8a33e70bfc87075c270236e6e75c6d845787c3"
+    },
+    {
+      "path": "code/analysis/reproduce_tables.py",
+      "sha256": "7adac4a2dc5d0eac240523a9efe16e97416f614a04785e8c630f406c3ce89d39"
+    },
+    {
+      "path": "code/experiments/ablation/sife20/features.py",
+      "sha256": "e50785faf8d1420fab1fc112a83a6c73608dcf957cd5ca92d1e270ee1db30479"
+    },
+    {
+      "path": "code/experiments/ablation/tests/test_features.py",
+      "sha256": "ee6a088a514d7225f18550003e51879eb141de7484fe99163da7e01ff8779949"
+    },
+    {
+      "path": "code/experiments/main/sife20/features.py",
+      "sha256": "c365d03dcd254e6681bd74a52eacd7724e18b2697cc5f3dd0400277ba8e906c4"
+    },
+    {
+      "path": "code/experiments/main/tests/test_features.py",
+      "sha256": "ee6a088a514d7225f18550003e51879eb141de7484fe99163da7e01ff8779949"
+    },
+    {
+      "path": "code/figures/redraw_results.py",
+      "sha256": "a155d6c47ec671016b2ecc924da9bca86c3e8b3889165672403ec04ec17f50bc"
+    },
+    {
+      "path": "code/run_notebook.py",
+      "sha256": "073c94eede6c96cb06b45ccece6dfe67561898059122e5fee2874e5ddfb552f1"
+    },
+    {
+      "path": "code/verify_repository.py",
+      "sha256": "5f805073c4fb2a52f02343a5bbb827831fae0930f2421d0c6b24dc7a876d8c8b"
+    },
+    {
+      "path": "docs/EXPERIMENTS.md",
+      "sha256": "6b0628c3717cf7b0f25eb3faf54b6973f6ab16d50f6ce24fd6e059db8d22531f"
+    },
+    {
+      "path": "docs/GITHUB_AND_ANONYMOUS.md",
+      "sha256": "b08f4f668696dce34cee9e22a5a2685f687fb71b3ce1b26bb80b0fb68aac53e3"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "sha256": "4f8bc240b93ce644e9fe73b42715cecb66c246754d7cc4deb80d104eaa96333b"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "sha256": "bccb86447b0eb34253eed315e12fe4433244f4ee824c26c8dea72824e1568284"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "4697aed16f5c3557201c511e9e02af624926ec8b81b191d6302077014d04ca0d"
+    }
+  ],
+  "mixed_notebook_feature_cells": [
+    {
+      "notebook": "code/experiments/main/Phish/01_Phish_MetaIFD_MAIN20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "8bbe833f93cc446abb7eed2963fb2989d988e1df126cb23171d1ec6029660647"
+        },
+        {
+          "index": 30,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 32,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 34,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 36,
+          "definition": "features.select_inputs",
+          "sha256": "7ef7ef286fe3d5be83afae234e196d20e419298156fa90d10340951ac3b7e2a4"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/main/Phish/02_Phish_GAT_MAIN20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "8bbe833f93cc446abb7eed2963fb2989d988e1df126cb23171d1ec6029660647"
+        },
+        {
+          "index": 30,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 32,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 34,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 36,
+          "definition": "features.select_inputs",
+          "sha256": "7ef7ef286fe3d5be83afae234e196d20e419298156fa90d10340951ac3b7e2a4"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/main/Phish/03_Phish_GraphSAGE_MAIN20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "8bbe833f93cc446abb7eed2963fb2989d988e1df126cb23171d1ec6029660647"
+        },
+        {
+          "index": 30,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 32,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 34,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 36,
+          "definition": "features.select_inputs",
+          "sha256": "7ef7ef286fe3d5be83afae234e196d20e419298156fa90d10340951ac3b7e2a4"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/main/Phish/04_Phish_LightGBM_MAIN20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "8bbe833f93cc446abb7eed2963fb2989d988e1df126cb23171d1ec6029660647"
+        },
+        {
+          "index": 30,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 32,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 34,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 36,
+          "definition": "features.select_inputs",
+          "sha256": "7ef7ef286fe3d5be83afae234e196d20e419298156fa90d10340951ac3b7e2a4"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/main/Phish/05_Phish_RF_MAIN20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "8bbe833f93cc446abb7eed2963fb2989d988e1df126cb23171d1ec6029660647"
+        },
+        {
+          "index": 30,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 32,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 34,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 36,
+          "definition": "features.select_inputs",
+          "sha256": "7ef7ef286fe3d5be83afae234e196d20e419298156fa90d10340951ac3b7e2a4"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/main/Ponzi/01_Ponzi_MetaIFD_MAIN20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "8bbe833f93cc446abb7eed2963fb2989d988e1df126cb23171d1ec6029660647"
+        },
+        {
+          "index": 30,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 32,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 34,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 36,
+          "definition": "features.select_inputs",
+          "sha256": "7ef7ef286fe3d5be83afae234e196d20e419298156fa90d10340951ac3b7e2a4"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/main/Ponzi/02_Ponzi_GAT_MAIN20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "8bbe833f93cc446abb7eed2963fb2989d988e1df126cb23171d1ec6029660647"
+        },
+        {
+          "index": 30,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 32,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 34,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 36,
+          "definition": "features.select_inputs",
+          "sha256": "7ef7ef286fe3d5be83afae234e196d20e419298156fa90d10340951ac3b7e2a4"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/main/Ponzi/03_Ponzi_GraphSAGE_MAIN20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "8bbe833f93cc446abb7eed2963fb2989d988e1df126cb23171d1ec6029660647"
+        },
+        {
+          "index": 30,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 32,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 34,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 36,
+          "definition": "features.select_inputs",
+          "sha256": "7ef7ef286fe3d5be83afae234e196d20e419298156fa90d10340951ac3b7e2a4"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/main/Ponzi/04_Ponzi_LightGBM_MAIN20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "8bbe833f93cc446abb7eed2963fb2989d988e1df126cb23171d1ec6029660647"
+        },
+        {
+          "index": 30,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 32,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 34,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 36,
+          "definition": "features.select_inputs",
+          "sha256": "7ef7ef286fe3d5be83afae234e196d20e419298156fa90d10340951ac3b7e2a4"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/main/Ponzi/05_Ponzi_RF_MAIN20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "8bbe833f93cc446abb7eed2963fb2989d988e1df126cb23171d1ec6029660647"
+        },
+        {
+          "index": 30,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 32,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 34,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 36,
+          "definition": "features.select_inputs",
+          "sha256": "7ef7ef286fe3d5be83afae234e196d20e419298156fa90d10340951ac3b7e2a4"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/ablation/Phish/01_Phish_MetaIFD_GROUP_ABLATION20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "56fa2d6da5eada250788dbd271975ba5cb23f37e1c4f028f26868be02d90e421"
+        },
+        {
+          "index": 30,
+          "definition": "features.selected_sife_indices",
+          "sha256": "7e65110c416ec0de3a665c878ac6cf0d394d253cba49b9e18f04db40a008ac7e"
+        },
+        {
+          "index": 32,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 34,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 36,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 38,
+          "definition": "features.select_inputs",
+          "sha256": "36ceb0229202a43d20dd597480cdff79e9b7445e7a6bc3378047013dd8563505"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/ablation/Phish/02_Phish_GAT_GROUP_ABLATION20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "56fa2d6da5eada250788dbd271975ba5cb23f37e1c4f028f26868be02d90e421"
+        },
+        {
+          "index": 30,
+          "definition": "features.selected_sife_indices",
+          "sha256": "7e65110c416ec0de3a665c878ac6cf0d394d253cba49b9e18f04db40a008ac7e"
+        },
+        {
+          "index": 32,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 34,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 36,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 38,
+          "definition": "features.select_inputs",
+          "sha256": "36ceb0229202a43d20dd597480cdff79e9b7445e7a6bc3378047013dd8563505"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/ablation/Phish/03_Phish_GraphSAGE_GROUP_ABLATION20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "56fa2d6da5eada250788dbd271975ba5cb23f37e1c4f028f26868be02d90e421"
+        },
+        {
+          "index": 30,
+          "definition": "features.selected_sife_indices",
+          "sha256": "7e65110c416ec0de3a665c878ac6cf0d394d253cba49b9e18f04db40a008ac7e"
+        },
+        {
+          "index": 32,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 34,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 36,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 38,
+          "definition": "features.select_inputs",
+          "sha256": "36ceb0229202a43d20dd597480cdff79e9b7445e7a6bc3378047013dd8563505"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/ablation/Phish/04_Phish_LightGBM_GROUP_ABLATION20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "56fa2d6da5eada250788dbd271975ba5cb23f37e1c4f028f26868be02d90e421"
+        },
+        {
+          "index": 30,
+          "definition": "features.selected_sife_indices",
+          "sha256": "7e65110c416ec0de3a665c878ac6cf0d394d253cba49b9e18f04db40a008ac7e"
+        },
+        {
+          "index": 32,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 34,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 36,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 38,
+          "definition": "features.select_inputs",
+          "sha256": "36ceb0229202a43d20dd597480cdff79e9b7445e7a6bc3378047013dd8563505"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/ablation/Phish/05_Phish_RF_GROUP_ABLATION20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "56fa2d6da5eada250788dbd271975ba5cb23f37e1c4f028f26868be02d90e421"
+        },
+        {
+          "index": 30,
+          "definition": "features.selected_sife_indices",
+          "sha256": "7e65110c416ec0de3a665c878ac6cf0d394d253cba49b9e18f04db40a008ac7e"
+        },
+        {
+          "index": 32,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 34,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 36,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 38,
+          "definition": "features.select_inputs",
+          "sha256": "36ceb0229202a43d20dd597480cdff79e9b7445e7a6bc3378047013dd8563505"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/ablation/Ponzi/01_Ponzi_MetaIFD_GROUP_ABLATION20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "56fa2d6da5eada250788dbd271975ba5cb23f37e1c4f028f26868be02d90e421"
+        },
+        {
+          "index": 30,
+          "definition": "features.selected_sife_indices",
+          "sha256": "7e65110c416ec0de3a665c878ac6cf0d394d253cba49b9e18f04db40a008ac7e"
+        },
+        {
+          "index": 32,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 34,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 36,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 38,
+          "definition": "features.select_inputs",
+          "sha256": "36ceb0229202a43d20dd597480cdff79e9b7445e7a6bc3378047013dd8563505"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/ablation/Ponzi/02_Ponzi_GAT_GROUP_ABLATION20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "56fa2d6da5eada250788dbd271975ba5cb23f37e1c4f028f26868be02d90e421"
+        },
+        {
+          "index": 30,
+          "definition": "features.selected_sife_indices",
+          "sha256": "7e65110c416ec0de3a665c878ac6cf0d394d253cba49b9e18f04db40a008ac7e"
+        },
+        {
+          "index": 32,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 34,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 36,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 38,
+          "definition": "features.select_inputs",
+          "sha256": "36ceb0229202a43d20dd597480cdff79e9b7445e7a6bc3378047013dd8563505"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/ablation/Ponzi/03_Ponzi_GraphSAGE_GROUP_ABLATION20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "56fa2d6da5eada250788dbd271975ba5cb23f37e1c4f028f26868be02d90e421"
+        },
+        {
+          "index": 30,
+          "definition": "features.selected_sife_indices",
+          "sha256": "7e65110c416ec0de3a665c878ac6cf0d394d253cba49b9e18f04db40a008ac7e"
+        },
+        {
+          "index": 32,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 34,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 36,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 38,
+          "definition": "features.select_inputs",
+          "sha256": "36ceb0229202a43d20dd597480cdff79e9b7445e7a6bc3378047013dd8563505"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/ablation/Ponzi/04_Ponzi_LightGBM_GROUP_ABLATION20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "56fa2d6da5eada250788dbd271975ba5cb23f37e1c4f028f26868be02d90e421"
+        },
+        {
+          "index": 30,
+          "definition": "features.selected_sife_indices",
+          "sha256": "7e65110c416ec0de3a665c878ac6cf0d394d253cba49b9e18f04db40a008ac7e"
+        },
+        {
+          "index": 32,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 34,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 36,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 38,
+          "definition": "features.select_inputs",
+          "sha256": "36ceb0229202a43d20dd597480cdff79e9b7445e7a6bc3378047013dd8563505"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    },
+    {
+      "notebook": "code/experiments/ablation/Ponzi/05_Ponzi_RF_GROUP_ABLATION20_RUN_ALL.ipynb",
+      "covered_cells": [
+        {
+          "index": 28,
+          "definition": "features.imports",
+          "sha256": "56fa2d6da5eada250788dbd271975ba5cb23f37e1c4f028f26868be02d90e421"
+        },
+        {
+          "index": 30,
+          "definition": "features.selected_sife_indices",
+          "sha256": "7e65110c416ec0de3a665c878ac6cf0d394d253cba49b9e18f04db40a008ac7e"
+        },
+        {
+          "index": 32,
+          "definition": "features.safe_ratio",
+          "sha256": "da6c0bf976b3e653f66cd1627ce792dca695a2c7cc0f99aa5a6a6eb9cce338a1"
+        },
+        {
+          "index": 34,
+          "definition": "features.summarize_channel",
+          "sha256": "d8789d0aff7c19a25161619af939b67a3333dcc0936afb36fccfbb2bee10d8c2"
+        },
+        {
+          "index": 36,
+          "definition": "features.extract_sife44",
+          "sha256": "3af1fa43b67ce3be218a3fd2042470a2a7d205df5a08d5e5979104e561f44cd0"
+        },
+        {
+          "index": 38,
+          "definition": "features.select_inputs",
+          "sha256": "36ceb0229202a43d20dd597480cdff79e9b7445e7a6bc3378047013dd8563505"
+        }
+      ],
+      "all_other_cells": "Not covered by the authors MIT grant"
+    }
+  ],
+  "upstream_reference": "https://github.com/GISec-Team/Meta-IFD",
+  "upstream_commit": "439c6daa936f67f19486be76642e690a2153d0c5",
+  "upstream_permission_confirmed": false,
+  "exclusions": [
+    "Unlisted mixed/upstream code",
+    "Pretrained decoder tensors",
+    "Benchmark and compact result data",
+    "Supplied figure artwork",
+    "External dependencies"
+  ],
+  "original_experiment_sources_changed": false
+}

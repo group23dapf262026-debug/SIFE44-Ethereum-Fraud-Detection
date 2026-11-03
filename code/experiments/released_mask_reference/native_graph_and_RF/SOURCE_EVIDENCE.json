@@ -1,0 +1,26 @@
+{
+  "author_commit": "439c6daa936f67f19486be76642e690a2153d0c5",
+  "author_files": {
+    "model.py": "86fcd312eb004500afe72eea6a151189224d9d289f930f34819f974ca3970e3e",
+    "attention_conv.py": "0080935c16553a59b498c275c1decab96c5d5569a0194f8435cae6ef4db44c1e",
+    "run.py": "0cf5488678c04809c4f69c4f6779039b3b85cadea3f952da50a44181f59539f8",
+    "utils.py": "e8023faa7b023c75f18553268d0c11d3d775a120e0e4401f89ba13681028f61d",
+    "dataset.py": "89b19ae2826de855f3dd9f9ec806c0ab9cb54e4ca0ad8b7e137985cd0476a369",
+    "readme.md": "d58b0f85758cd4e3964867b711b3af3201078b171dda9c645267b0a753dec4a2"
+  },
+  "accepted_members": {
+    "configs/matched_gat_protocol.json": "c3fa2d5f77cf1643e4cdc142cfbc84379960a8288fc493d719520c406ea56aa3",
+    "configs/matched_graphsage_protocol.json": "dfe56b9414d85d2df40861f95f5728aa3f9156fb4001b6d7de051dba3ebca705",
+    "configs/matched_lightgbm_protocol.json": "3daee44fa231f2a63c995096ec5cdb8286af0eb7b6c01a36fcc9d1d4c45bda28",
+    "configs/matched_logistic_regression_protocol.json": "08d7102029f422d49fc5ed138d3c25b04cbf1beb30c8d0efb543fdd8d17c4647",
+    "configs/matched_master_protocol.json": "77703d43401a45067d6e8ae57d6baa74aebafdeee4815b857a00b0f31f1c593d",
+    "configs/matched_metaifd_protocol.json": "b90c7ae7e165b2e63e7bdc5e52ceb8867255d2c7c23efb3ede5da50ef103c890",
+    "configs/matched_random_forest_protocol.json": "216f86519920c71da83d9e6836064d17c6b914606eeb7736ff747be5ad959027"
+  },
+  "whole_archive_certified": false,
+  "native_backbone_files": {
+    "D:\\DAPFinal\\04_Workspace\\audits\\phish_gat_results39_20261022\\verified\\runtime\\models.py": "db88faaaf3b78a8d0bad42415034380376617475a81c4382fc91f19b84773420",
+    "D:\\DAPFinal\\04_Workspace\\audits\\phish_graphsage_results40_20261022\\verified\\runtime\\models.py": "9b97de02e0fdd6e6ec8fee8519ea11378e89bc8f05a0414ff6f6bf181a2d9eb3"
+  },
+  "active_backbone_reference": "native group models; accepted archive is configuration/history only"
+}

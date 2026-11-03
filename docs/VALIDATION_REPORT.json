@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-04",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "matplotlib": "3.11.2",
+      "nbformat": "5.11.1",
+      "ipython": "9.17.1"
+    }
+  },
+  "main_test_fits_replayed": 3800,
+  "ablation_test_fits_replayed": 5000,
+  "matching_fit_evaluations_replayed": 3800,
+  "matching_partitions_verified": 40,
+  "feature_unit_tests_passed": 8,
+  "matching_unit_tests_passed": 5,
+  "runner_ipython_fixture_passed": true,
+  "full_training_reperformed": false,
+  "native_gnn_suite_rerun": false,
+  "notebook_schemas_validated": 30,
+  "statistical_redraw_executed": true,
+  "github_actions_executed": false,
+  "public_repository_created": false,
+  "frozen_completed_run_source_signatures_verified": 30,
+  "python_source_files_parsed": 93,
+  "standard_library_verifier": "PASS",
+  "local_document_links": "PASS",
+  "code_and_documentation_language": "English",
+  "main_test_prediction_fit_files_hash_verified": 3800,
+  "license": {
+    "identifier": "MIT",
+    "scoped": true,
+    "full_files": 20,
+    "mixed_notebooks_with_covered_feature_cells": 20,
+    "upstream_permission_confirmed": false,
+    "source_code_changed": false
+  },
+  "anonymous_mirror_preparation": {
+    "prediction_shards": 40,
+    "largest_file_bytes": 2248518,
+    "data_rows_changed": false,
+    "source_figure_author_identifier_scan": "No supplied author/institution identifiers found in PDF text or metadata",
+    "online_anonymous_mirror_created": false,
+    "local_redaction_simulation_passed": true,
+    "scientific_tampering_rejected_in_anonymous_mode": true,
+    "strict_scientific_hash_verification_retained": true,
+    "sharded_matching_fit_evaluations_replayed": 3800,
+    "sharded_matching_summary_matches_original": true
+  }
+}

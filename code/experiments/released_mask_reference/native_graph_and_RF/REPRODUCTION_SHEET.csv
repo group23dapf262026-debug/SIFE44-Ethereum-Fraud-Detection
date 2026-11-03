@@ -1,0 +1,36 @@
+item,value,evidence_status,source_or_rationale
+original_task,static transductive labelled-address classification,reported,public dataset.py and run.py
+graph_release,known SHA256 checked before deserialize,reported,audited HEIG data.pt bytes
+phish_masks,1657 train / 553 validation / 553 test,reported,released graph masks
+ponzi_masks,804 train / 269 validation / 269 test,reported,released graph masks
+exact_table_masks,not proven for every paper run,missing,release masks do not establish original training artifact provenance
+phish_duplicates,retain conflicting address IDs611/1206,reported,audited released root mapping
+meta_hidden,128,reported,public utils.py default and accepted-study config
+meta_lr,0.001,reported,public utils.py default and accepted-study config
+meta_lambda,0.1,reported,public utils.py default and accepted-study config
+meta_views,3,reported,public utils.py default and accepted-study config
+meta_table_winner,not recovered,missing,README example is not proof of TableIV configuration
+gat_hidden_lr,32 / 0.01,reported,accepted-study matched_gat protocol
+sage_hidden_lr,32 / 0.01,reported,accepted-study matched_graphsage protocol
+gat_sage_backbone,GAT signedlog TRAIN zscore noencoder dropout0; SAGE raw Linear tanh mean projectTrue,reported,audited group native models results39/40 and readable Oct23; not accepted BN backbone
+original_gat_sage_backbone,not fully available,missing,no complete original-paper runners verified
+lightgbm_config,300 trees / lr0.01 / leaves31,reported,accepted-study matched_lightgbm protocol
+lr_config,C10 liblinear max_iter5000 StandardScaler TRAIN-only,reported,accepted-study fixed settings
+rf_config,100trees depth10 leaf1 no class weights,reported,accepted-study fixed settings
+lr_rf_paper_reference,not supplied,missing,supplementary baselines without invented TableIV scores
+epochs_patience,1000 / 50,reported,public utils.py and accepted-study protocols
+batch_fanout,512 / 100x2,reported,public run.py and accepted-study protocols
+optimizer,Adam weight_decay0.0005,reported,public run.py and accepted-study protocols
+meta_loss,TripletMarginLoss p2 margin0.3 mean unsquaredL2,reported,public model.py differs from paper Eq11
+best_checkpoint,load validation-best instead of public last-model forward,inferred,explicit bug correction and persisted last checkpoint
+meta_attention_heads,no invented four-head HMSL setting,reported,public model.py attention
+sampling_RNG,1201 train /1202 validation /2301 test,inferred,explicit reproducibility policy; not recovered author RNG
+generation_RNG,CPU seed role+50000 and documented traversal,inferred,explicit reproducibility policy; not recovered author RNG
+model_seeds,12 through16,inferred,five fixed explicit seeds; not recovered TableIV run seeds
+threshold,p1>0.5 exacttie0,inferred,common decision rule with documented equality difference
+search,no HPO and no seed selection,inferred,current user-approved fixed-config comparison
+uncertainty,mean and sample SD across5model seeds on1split,inferred,descriptive variation only
+runtime,every dependency and device recorded,inferred,no silent modernization or cross-platform bitwise promise
+gat_scaling_scope,unique typed TRAIN sampled nodes incl unlabeled neighbors,reported,audited native GAT train_statistics; no heldout batch fitting
+gat_scaling_rounding,chunked two-pass float64 moments then float32 buffers,inferred,bounded memory implementation; rounding may differ from full tensor reduction
+gat_sage_fixed_hyperparameters,hidden32 lr0.01 kept independent of older validation winners,inferred,current fixed-budget choice; not optimal or recovered original-paper setting

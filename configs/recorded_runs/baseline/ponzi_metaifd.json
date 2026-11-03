@@ -1,0 +1,50 @@
+{
+  "version": "released_x14_native_fixed_v2",
+  "dataset": "Ponzi",
+  "model": "metaifd",
+  "arm": "X14",
+  "width": 14,
+  "cohort": "released_reference; retain all released labelled rows, including known Phish conflict",
+  "split": "unchanged graph masks; one partition; no resplitting",
+  "fixed_config": {
+    "hidden": 128,
+    "lr": 0.001,
+    "views": 3,
+    "contrast_weight": 0.1
+  },
+  "configuration_source": "public utils.py defaults, also used by accepted study; not a recovered paper-table winner",
+  "model_seeds": [
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "run_mode": "full",
+  "hyperparameter_search": false,
+  "decision": "p1 > 0.5; exact tie -> class0; no threshold search",
+  "preprocessing": "public decoder generated normalized interaction views + unchanged source14",
+  "max_epochs": 1000,
+  "patience": 50,
+  "weight_decay": 0.0005,
+  "checkpoint_rule": "latest validation Macro-F1 tie; stop stale >50",
+  "fanouts": [
+    100,
+    100
+  ],
+  "batch_size": 512,
+  "sampler_seeds": {
+    "train": 1201,
+    "validation": 1202,
+    "test": 2301
+  },
+  "sampler": "actual PyG NeighborLoader directional; per-role cached draws shared across model seeds",
+  "author_commit": "439c6daa936f67f19486be76642e690a2153d0c5",
+  "meta_loss": "public-code unsquared L2 TripletMarginLoss mean, margin .3; differs from squared/sum paper equation",
+  "test_policy": "freeze all five seed estimators/checkpoints before test cache or test inference",
+  "setting": "static transductive; topology and unlabeled held-out features may be sampled as neighbors",
+  "inference": "descriptive seed variation on one released split; not independent-split uncertainty",
+  "exact_paper_table_reproduction_claimed": false,
+  "backbone_source": "pinned public HMSL and decoder",
+  "architecture_status": "see deviations"
+}

@@ -1,0 +1,426 @@
+{
+  "identity": "b240e719d0fba2166f7a2ef4fd06a813a31d0a1ce8fcc0773a96a48521ada797",
+  "fits": [
+    {
+      "identity": "b240e719d0fba2166f7a2ef4fd06a813a31d0a1ce8fcc0773a96a48521ada797",
+      "seed": 12,
+      "config": {
+        "n_estimators": 300,
+        "learning_rate": 0.01,
+        "num_leaves": 31,
+        "class_weight": null
+      },
+      "profile": "reference",
+      "detail": {
+        "train_class_counts": [
+          933,
+          724
+        ],
+        "resolved_train_class_weights": {
+          "0": 1.0,
+          "1": 1.0
+        },
+        "train_predicted_positives": 741,
+        "train_single_class": false,
+        "validation_predicted_positives": 241,
+        "n_iter": null,
+        "scaler_fit_rows": null,
+        "input_contract": "call input_frame(raw_source14,model,profile) before saved estimator prediction",
+        "feature_names": [
+          "bal_c",
+          "V_inv_c",
+          "V_return_c",
+          "N_inv_c",
+          "N_return_c",
+          "V_meaninv_c",
+          "V_meanreturn_c",
+          "bal_t",
+          "V_inv_t",
+          "V_return_t",
+          "N_inv_t",
+          "N_return_t",
+          "V_meaninv_t",
+          "V_meanreturn_t"
+        ]
+      },
+      "training": {
+        "macro_f1": 0.9736963251051671,
+        "micro_f1": 0.9740494870247435,
+        "binary_f1": 0.9706484641638224,
+        "precision": 0.9595141700404858,
+        "recall": 0.9820441988950276,
+        "accuracy": 0.9740494870247435,
+        "fpr": 0.03215434083601286,
+        "average_precision": 0.9963126651247778,
+        "roc_auc": 0.9972434906705039,
+        "tn": 903,
+        "fp": 30,
+        "fn": 13,
+        "tp": 711,
+        "n": 1657
+      },
+      "validation": {
+        "macro_f1": 0.9632274710075539,
+        "micro_f1": 0.9638336347197106,
+        "binary_f1": 0.9585062240663901,
+        "precision": 0.9585062240663901,
+        "recall": 0.9585062240663901,
+        "accuracy": 0.9638336347197106,
+        "fpr": 0.03205128205128205,
+        "average_precision": 0.9881407885284923,
+        "roc_auc": 0.9910229811682094,
+        "tn": 302,
+        "fp": 10,
+        "fn": 10,
+        "tp": 231,
+        "n": 553
+      },
+      "training_seconds": 0.7372402999999395,
+      "warnings": [],
+      "files": {
+        "estimator.joblib": "b0666db9b57b27358c2e62bae04ca2fdcd482e2cc5e6d14e5c3fa8a26e366799"
+      }
+    },
+    {
+      "identity": "b240e719d0fba2166f7a2ef4fd06a813a31d0a1ce8fcc0773a96a48521ada797",
+      "seed": 13,
+      "config": {
+        "n_estimators": 300,
+        "learning_rate": 0.01,
+        "num_leaves": 31,
+        "class_weight": null
+      },
+      "profile": "reference",
+      "detail": {
+        "train_class_counts": [
+          933,
+          724
+        ],
+        "resolved_train_class_weights": {
+          "0": 1.0,
+          "1": 1.0
+        },
+        "train_predicted_positives": 741,
+        "train_single_class": false,
+        "validation_predicted_positives": 241,
+        "n_iter": null,
+        "scaler_fit_rows": null,
+        "input_contract": "call input_frame(raw_source14,model,profile) before saved estimator prediction",
+        "feature_names": [
+          "bal_c",
+          "V_inv_c",
+          "V_return_c",
+          "N_inv_c",
+          "N_return_c",
+          "V_meaninv_c",
+          "V_meanreturn_c",
+          "bal_t",
+          "V_inv_t",
+          "V_return_t",
+          "N_inv_t",
+          "N_return_t",
+          "V_meaninv_t",
+          "V_meanreturn_t"
+        ]
+      },
+      "training": {
+        "macro_f1": 0.9736963251051671,
+        "micro_f1": 0.9740494870247435,
+        "binary_f1": 0.9706484641638224,
+        "precision": 0.9595141700404858,
+        "recall": 0.9820441988950276,
+        "accuracy": 0.9740494870247435,
+        "fpr": 0.03215434083601286,
+        "average_precision": 0.9963126651247778,
+        "roc_auc": 0.9972434906705039,
+        "tn": 903,
+        "fp": 30,
+        "fn": 13,
+        "tp": 711,
+        "n": 1657
+      },
+      "validation": {
+        "macro_f1": 0.9632274710075539,
+        "micro_f1": 0.9638336347197106,
+        "binary_f1": 0.9585062240663901,
+        "precision": 0.9585062240663901,
+        "recall": 0.9585062240663901,
+        "accuracy": 0.9638336347197106,
+        "fpr": 0.03205128205128205,
+        "average_precision": 0.9881407885284923,
+        "roc_auc": 0.9910229811682094,
+        "tn": 302,
+        "fp": 10,
+        "fn": 10,
+        "tp": 231,
+        "n": 553
+      },
+      "training_seconds": 0.5821601000002374,
+      "warnings": [],
+      "files": {
+        "estimator.joblib": "cecdd3eb05358626ed10873009405ce5f83828b73a9b71483697b4b8fd50592d"
+      }
+    },
+    {
+      "identity": "b240e719d0fba2166f7a2ef4fd06a813a31d0a1ce8fcc0773a96a48521ada797",
+      "seed": 14,
+      "config": {
+        "n_estimators": 300,
+        "learning_rate": 0.01,
+        "num_leaves": 31,
+        "class_weight": null
+      },
+      "profile": "reference",
+      "detail": {
+        "train_class_counts": [
+          933,
+          724
+        ],
+        "resolved_train_class_weights": {
+          "0": 1.0,
+          "1": 1.0
+        },
+        "train_predicted_positives": 741,
+        "train_single_class": false,
+        "validation_predicted_positives": 241,
+        "n_iter": null,
+        "scaler_fit_rows": null,
+        "input_contract": "call input_frame(raw_source14,model,profile) before saved estimator prediction",
+        "feature_names": [
+          "bal_c",
+          "V_inv_c",
+          "V_return_c",
+          "N_inv_c",
+          "N_return_c",
+          "V_meaninv_c",
+          "V_meanreturn_c",
+          "bal_t",
+          "V_inv_t",
+          "V_return_t",
+          "N_inv_t",
+          "N_return_t",
+          "V_meaninv_t",
+          "V_meanreturn_t"
+        ]
+      },
+      "training": {
+        "macro_f1": 0.9736963251051671,
+        "micro_f1": 0.9740494870247435,
+        "binary_f1": 0.9706484641638224,
+        "precision": 0.9595141700404858,
+        "recall": 0.9820441988950276,
+        "accuracy": 0.9740494870247435,
+        "fpr": 0.03215434083601286,
+        "average_precision": 0.9963126651247778,
+        "roc_auc": 0.9972434906705039,
+        "tn": 903,
+        "fp": 30,
+        "fn": 13,
+        "tp": 711,
+        "n": 1657
+      },
+      "validation": {
+        "macro_f1": 0.9632274710075539,
+        "micro_f1": 0.9638336347197106,
+        "binary_f1": 0.9585062240663901,
+        "precision": 0.9585062240663901,
+        "recall": 0.9585062240663901,
+        "accuracy": 0.9638336347197106,
+        "fpr": 0.03205128205128205,
+        "average_precision": 0.9881407885284923,
+        "roc_auc": 0.9910229811682094,
+        "tn": 302,
+        "fp": 10,
+        "fn": 10,
+        "tp": 231,
+        "n": 553
+      },
+      "training_seconds": 0.655048799999804,
+      "warnings": [],
+      "files": {
+        "estimator.joblib": "31081f90124b977e7313ac88d8c77edfa2152849df33dfceded00097c988a877"
+      }
+    },
+    {
+      "identity": "b240e719d0fba2166f7a2ef4fd06a813a31d0a1ce8fcc0773a96a48521ada797",
+      "seed": 15,
+      "config": {
+        "n_estimators": 300,
+        "learning_rate": 0.01,
+        "num_leaves": 31,
+        "class_weight": null
+      },
+      "profile": "reference",
+      "detail": {
+        "train_class_counts": [
+          933,
+          724
+        ],
+        "resolved_train_class_weights": {
+          "0": 1.0,
+          "1": 1.0
+        },
+        "train_predicted_positives": 741,
+        "train_single_class": false,
+        "validation_predicted_positives": 241,
+        "n_iter": null,
+        "scaler_fit_rows": null,
+        "input_contract": "call input_frame(raw_source14,model,profile) before saved estimator prediction",
+        "feature_names": [
+          "bal_c",
+          "V_inv_c",
+          "V_return_c",
+          "N_inv_c",
+          "N_return_c",
+          "V_meaninv_c",
+          "V_meanreturn_c",
+          "bal_t",
+          "V_inv_t",
+          "V_return_t",
+          "N_inv_t",
+          "N_return_t",
+          "V_meaninv_t",
+          "V_meanreturn_t"
+        ]
+      },
+      "training": {
+        "macro_f1": 0.9736963251051671,
+        "micro_f1": 0.9740494870247435,
+        "binary_f1": 0.9706484641638224,
+        "precision": 0.9595141700404858,
+        "recall": 0.9820441988950276,
+        "accuracy": 0.9740494870247435,
+        "fpr": 0.03215434083601286,
+        "average_precision": 0.9963126651247778,
+        "roc_auc": 0.9972434906705039,
+        "tn": 903,
+        "fp": 30,
+        "fn": 13,
+        "tp": 711,
+        "n": 1657
+      },
+      "validation": {
+        "macro_f1": 0.9632274710075539,
+        "micro_f1": 0.9638336347197106,
+        "binary_f1": 0.9585062240663901,
+        "precision": 0.9585062240663901,
+        "recall": 0.9585062240663901,
+        "accuracy": 0.9638336347197106,
+        "fpr": 0.03205128205128205,
+        "average_precision": 0.9881407885284923,
+        "roc_auc": 0.9910229811682094,
+        "tn": 302,
+        "fp": 10,
+        "fn": 10,
+        "tp": 231,
+        "n": 553
+      },
+      "training_seconds": 0.7046987000003355,
+      "warnings": [],
+      "files": {
+        "estimator.joblib": "66cd30745cbba8ff1b19567b6d0e0a55cd8abc97fb073f9660f2d949ae3173d8"
+      }
+    },
+    {
+      "identity": "b240e719d0fba2166f7a2ef4fd06a813a31d0a1ce8fcc0773a96a48521ada797",
+      "seed": 16,
+      "config": {
+        "n_estimators": 300,
+        "learning_rate": 0.01,
+        "num_leaves": 31,
+        "class_weight": null
+      },
+      "profile": "reference",
+      "detail": {
+        "train_class_counts": [
+          933,
+          724
+        ],
+        "resolved_train_class_weights": {
+          "0": 1.0,
+          "1": 1.0
+        },
+        "train_predicted_positives": 741,
+        "train_single_class": false,
+        "validation_predicted_positives": 241,
+        "n_iter": null,
+        "scaler_fit_rows": null,
+        "input_contract": "call input_frame(raw_source14,model,profile) before saved estimator prediction",
+        "feature_names": [
+          "bal_c",
+          "V_inv_c",
+          "V_return_c",
+          "N_inv_c",
+          "N_return_c",
+          "V_meaninv_c",
+          "V_meanreturn_c",
+          "bal_t",
+          "V_inv_t",
+          "V_return_t",
+          "N_inv_t",
+          "N_return_t",
+          "V_meaninv_t",
+          "V_meanreturn_t"
+        ]
+      },
+      "training": {
+        "macro_f1": 0.9736963251051671,
+        "micro_f1": 0.9740494870247435,
+        "binary_f1": 0.9706484641638224,
+        "precision": 0.9595141700404858,
+        "recall": 0.9820441988950276,
+        "accuracy": 0.9740494870247435,
+        "fpr": 0.03215434083601286,
+        "average_precision": 0.9963126651247778,
+        "roc_auc": 0.9972434906705039,
+        "tn": 903,
+        "fp": 30,
+        "fn": 13,
+        "tp": 711,
+        "n": 1657
+      },
+      "validation": {
+        "macro_f1": 0.9632274710075539,
+        "micro_f1": 0.9638336347197106,
+        "binary_f1": 0.9585062240663901,
+        "precision": 0.9585062240663901,
+        "recall": 0.9585062240663901,
+        "accuracy": 0.9638336347197106,
+        "fpr": 0.03205128205128205,
+        "average_precision": 0.9881407885284923,
+        "roc_auc": 0.9910229811682094,
+        "tn": 302,
+        "fp": 10,
+        "fn": 10,
+        "tp": 231,
+        "n": 553
+      },
+      "training_seconds": 0.6030550000000403,
+      "warnings": [],
+      "files": {
+        "estimator.joblib": "b421a9a3a2f29bb2e530cb0d426ddca547ebbb6958dcd715114061c56fc31a74"
+      }
+    }
+  ],
+  "files": {
+    "protocol.json": "be03ab6a899e59a3a41757993b4fd5c3a29697f4aad807c5c779732837b15614",
+    "test_membership.csv": "cc91747cec1c17ec75ce85cad7f68bdc09fb210e325c95189f6efeb08f0ca37d",
+    "train_membership.csv": "fa7a1b7239174a013baa285dffe08f028b7199c774665a6cbf7b2d21fec256af",
+    "validation_membership.csv": "f410a2174d4fe2176582b8009e7138775fe77df969f9b4e2964d2e5c89115f2f",
+    "fits/seed_12/estimator.joblib": "b0666db9b57b27358c2e62bae04ca2fdcd482e2cc5e6d14e5c3fa8a26e366799",
+    "fits/seed_12/fit.json": "3e720ed9ddf8c3b2e2524e361da84e043b03827217b0719ad0a64c04c0e7eeff",
+    "fits/seed_13/estimator.joblib": "cecdd3eb05358626ed10873009405ce5f83828b73a9b71483697b4b8fd50592d",
+    "fits/seed_13/fit.json": "496c5c59232ef51c4713e02bec13d811ff06b44212f685baa24b81f054370df0",
+    "fits/seed_14/estimator.joblib": "31081f90124b977e7313ac88d8c77edfa2152849df33dfceded00097c988a877",
+    "fits/seed_14/fit.json": "b5cf23a2d341f222f3a1f752331667037c2880ad83ceb6105222c310968b997c",
+    "fits/seed_15/estimator.joblib": "66cd30745cbba8ff1b19567b6d0e0a55cd8abc97fb073f9660f2d949ae3173d8",
+    "fits/seed_15/fit.json": "443a56d860ea6c3bf26c2e388ed8d52dd93a2d485b1ffb64a3c62a8779478630",
+    "fits/seed_16/estimator.joblib": "b421a9a3a2f29bb2e530cb0d426ddca547ebbb6958dcd715114061c56fc31a74",
+    "fits/seed_16/fit.json": "8deeb845c1cf8c0176d908efaca63da264ade0ad24b362c95f4f7fa0d700582e",
+    "cache/train/roots.json": "ce2b359441df95695e9d87866ab0850741700fe4641adff1fc2798a66ffd2ca6",
+    "cache/train/roots.npz": "f5ee43db2e2168efedf3817be2a20e2f01850982963dd138b9cbfeeddaf7c234",
+    "cache/validation/roots.json": "0c34e6485638020ce2738880dacfe3a2a5debfd8df19ccdc41af9f66d8308d5e",
+    "cache/validation/roots.npz": "2f7914bccf53ca4806d4fe7b0c7fd6cc5b8daeb04c1934fb019370dc27206599"
+  },
+  "test_scored_at_lock": false
+}

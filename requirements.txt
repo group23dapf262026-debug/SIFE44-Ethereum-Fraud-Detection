@@ -1,0 +1,2 @@
+# Default quick-check environment; full graph training uses requirements-training.txt.
+-r requirements-analysis.txt

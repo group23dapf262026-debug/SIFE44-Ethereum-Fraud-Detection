@@ -1,0 +1,48 @@
+{
+  "version": "released_x14_native_fixed_v2",
+  "dataset": "Ponzi",
+  "model": "rf",
+  "arm": "X14",
+  "width": 14,
+  "cohort": "released_reference; retain all released labelled rows, including known Phish conflict",
+  "split": "unchanged graph masks; one partition; no resplitting",
+  "fixed_config": {
+    "n_estimators": 100,
+    "max_depth": 10
+  },
+  "configuration_source": "accepted-study fixed settings; not recovered paper-table winning config",
+  "model_seeds": [
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "run_mode": "full",
+  "hyperparameter_search": false,
+  "decision": "p1 > 0.5; exact tie -> class0; no threshold search",
+  "preprocessing": "raw source14; no external scaler",
+  "max_epochs": null,
+  "patience": null,
+  "weight_decay": null,
+  "checkpoint_rule": "one fitted estimator at fixed budget",
+  "fanouts": [
+    100,
+    100
+  ],
+  "batch_size": 512,
+  "sampler_seeds": {
+    "train": 1201,
+    "validation": 1202,
+    "test": 2301
+  },
+  "sampler": "none",
+  "author_commit": "439c6daa936f67f19486be76642e690a2153d0c5",
+  "meta_loss": "public-code unsquared L2 TripletMarginLoss mean, margin .3; differs from squared/sum paper equation",
+  "test_policy": "freeze all five seed estimators/checkpoints before test cache or test inference",
+  "setting": "static transductive; topology and unlabeled held-out features may be sampled as neighbors",
+  "inference": "descriptive seed variation on one released split; not independent-split uncertainty",
+  "exact_paper_table_reproduction_claimed": false,
+  "backbone_source": "accepted-study tabular baseline",
+  "architecture_status": "see deviations"
+}

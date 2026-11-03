@@ -1,0 +1,243 @@
+{
+  "identity": "1eed3ec21e384c3f9542214416835e97ada649b39cdf6762918638aef7e4042c",
+  "seeds": [
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "fits": [
+    {
+      "identity": "a14edc8a33476fd5f7e35f771c1768cabf4146030f1950170cbbc52b553b7969",
+      "seed": 12,
+      "model": "rf",
+      "config": {
+        "n_estimators": 100,
+        "max_depth": 10
+      },
+      "input_width": 14,
+      "validation": {
+        "macro_f1": 0.7265519110870154,
+        "micro_f1": 0.8884758364312267,
+        "binary_f1": 0.5161290322580645,
+        "precision": 0.6666666666666666,
+        "recall": 0.42105263157894735,
+        "accuracy": 0.8884758364312267,
+        "fpr": 0.03463203463203463,
+        "average_precision": 0.5806978434628552,
+        "roc_auc": 0.8636363636363638,
+        "tn": 223,
+        "fp": 8,
+        "fn": 22,
+        "tp": 16,
+        "n": 269
+      },
+      "best_epoch": null,
+      "stopped_epoch": null,
+      "parameter_count": null,
+      "training_seconds": 0.3796126969999989,
+      "warnings": [],
+      "detail": {
+        "fitted_features": 14,
+        "training_rows": 804,
+        "scaler_rows": null
+      },
+      "test_scored": false,
+      "checkpoint": "estimator.joblib",
+      "files": {
+        "estimator.joblib": "cb62187f4044e369c18e8e3a19795e323940065751cdaccbf5ea3472f5b6c5c2",
+        "history.csv": "3d75b01db764322b97984c1cf27a1977e35bd1d5a8e58930d86db73ac6c9da2f"
+      }
+    },
+    {
+      "identity": "272a20462d94f91251b6399b46e4987d5e309323406e389515d2c01f55fdb397",
+      "seed": 13,
+      "model": "rf",
+      "config": {
+        "n_estimators": 100,
+        "max_depth": 10
+      },
+      "input_width": 14,
+      "validation": {
+        "macro_f1": 0.7462676858025695,
+        "micro_f1": 0.8921933085501859,
+        "binary_f1": 0.5538461538461539,
+        "precision": 0.6666666666666666,
+        "recall": 0.47368421052631576,
+        "accuracy": 0.8921933085501859,
+        "fpr": 0.03896103896103896,
+        "average_precision": 0.6237036893838701,
+        "roc_auc": 0.8779334700387331,
+        "tn": 222,
+        "fp": 9,
+        "fn": 20,
+        "tp": 18,
+        "n": 269
+      },
+      "best_epoch": null,
+      "stopped_epoch": null,
+      "parameter_count": null,
+      "training_seconds": 0.3447468880000031,
+      "warnings": [],
+      "detail": {
+        "fitted_features": 14,
+        "training_rows": 804,
+        "scaler_rows": null
+      },
+      "test_scored": false,
+      "checkpoint": "estimator.joblib",
+      "files": {
+        "estimator.joblib": "7eafb7f9982d1bddb6d6d907f9086aca409dd9e035eda0b9b34297b9b5c2e51f",
+        "history.csv": "09c66d8df3068a1c8984be43226b3ae54faf81b9a4a2fe9413dfe7d97f1f2faa"
+      }
+    },
+    {
+      "identity": "faf31abfa000c05d3d9b6cfdd77a4b6daaca40a1213ef961909bb5b98dbd83dc",
+      "seed": 14,
+      "model": "rf",
+      "config": {
+        "n_estimators": 100,
+        "max_depth": 10
+      },
+      "input_width": 14,
+      "validation": {
+        "macro_f1": 0.7447817836812144,
+        "micro_f1": 0.895910780669145,
+        "binary_f1": 0.5483870967741935,
+        "precision": 0.7083333333333334,
+        "recall": 0.4473684210526316,
+        "accuracy": 0.895910780669145,
+        "fpr": 0.030303030303030304,
+        "average_precision": 0.6210391587971242,
+        "roc_auc": 0.8743449532923216,
+        "tn": 224,
+        "fp": 7,
+        "fn": 21,
+        "tp": 17,
+        "n": 269
+      },
+      "best_epoch": null,
+      "stopped_epoch": null,
+      "parameter_count": null,
+      "training_seconds": 0.3561715310000011,
+      "warnings": [],
+      "detail": {
+        "fitted_features": 14,
+        "training_rows": 804,
+        "scaler_rows": null
+      },
+      "test_scored": false,
+      "checkpoint": "estimator.joblib",
+      "files": {
+        "estimator.joblib": "3dfdd673a908a76a0beac76fa52137f78af532ca030d730e480abd5ea759abe8",
+        "history.csv": "a8cfddc4b4ad075f69aaf4d57c869c094be9aa3bce02df4998edbff425d5d631"
+      }
+    },
+    {
+      "identity": "d5d03db0b45e0d6027e8be9acf86f2176c1635fb97be056d0915ba2443554231",
+      "seed": 15,
+      "model": "rf",
+      "config": {
+        "n_estimators": 100,
+        "max_depth": 10
+      },
+      "input_width": 14,
+      "validation": {
+        "macro_f1": 0.7213366750208856,
+        "micro_f1": 0.8847583643122676,
+        "binary_f1": 0.5079365079365079,
+        "precision": 0.64,
+        "recall": 0.42105263157894735,
+        "accuracy": 0.8847583643122676,
+        "fpr": 0.03896103896103896,
+        "average_precision": 0.6257687718776439,
+        "roc_auc": 0.877136021872864,
+        "tn": 222,
+        "fp": 9,
+        "fn": 22,
+        "tp": 16,
+        "n": 269
+      },
+      "best_epoch": null,
+      "stopped_epoch": null,
+      "parameter_count": null,
+      "training_seconds": 0.341424638999996,
+      "warnings": [],
+      "detail": {
+        "fitted_features": 14,
+        "training_rows": 804,
+        "scaler_rows": null
+      },
+      "test_scored": false,
+      "checkpoint": "estimator.joblib",
+      "files": {
+        "estimator.joblib": "3313a30c6dd478e7573b1ac668643d0a678a83acc98631d74972703eb1166f54",
+        "history.csv": "6b76a221e9fa08a0da42187fd1ec921c82358ab71bb87782e1608240dd852cd3"
+      }
+    },
+    {
+      "identity": "f1c70f333addd36edca29199697a957a9cebacaced809a1d43178fd67cc4eeb5",
+      "seed": 16,
+      "model": "rf",
+      "config": {
+        "n_estimators": 100,
+        "max_depth": 10
+      },
+      "input_width": 14,
+      "validation": {
+        "macro_f1": 0.7393149540517961,
+        "micro_f1": 0.8921933085501859,
+        "binary_f1": 0.5396825396825397,
+        "precision": 0.68,
+        "recall": 0.4473684210526316,
+        "accuracy": 0.8921933085501859,
+        "fpr": 0.03463203463203463,
+        "average_precision": 0.5800242475444638,
+        "roc_auc": 0.8710982000455684,
+        "tn": 223,
+        "fp": 8,
+        "fn": 21,
+        "tp": 17,
+        "n": 269
+      },
+      "best_epoch": null,
+      "stopped_epoch": null,
+      "parameter_count": null,
+      "training_seconds": 0.33435399599997595,
+      "warnings": [],
+      "detail": {
+        "fitted_features": 14,
+        "training_rows": 804,
+        "scaler_rows": null
+      },
+      "test_scored": false,
+      "checkpoint": "estimator.joblib",
+      "files": {
+        "estimator.joblib": "0fb3a821b9314a329b0468d897fe2913de146086c21e1e7865f85dbee58b6c3a",
+        "history.csv": "5b960634470257fbb950f67672e739d6ebcb292e8b678d78ef993f3e402b8675"
+      }
+    }
+  ],
+  "files": {
+    "fits/seed_13/fit.json": "d2e4aaf306c86506e7b3524da5fd8e9920d29cac95fbac50a31bba14318923c0",
+    "fits/seed_13/history.csv": "09c66d8df3068a1c8984be43226b3ae54faf81b9a4a2fe9413dfe7d97f1f2faa",
+    "fits/seed_13/estimator.joblib": "7eafb7f9982d1bddb6d6d907f9086aca409dd9e035eda0b9b34297b9b5c2e51f",
+    "fits/seed_16/fit.json": "01845e165e18efd02455d9adda195df615043525d30b68f87a8b4ff42961b31a",
+    "fits/seed_16/history.csv": "5b960634470257fbb950f67672e739d6ebcb292e8b678d78ef993f3e402b8675",
+    "fits/seed_16/estimator.joblib": "0fb3a821b9314a329b0468d897fe2913de146086c21e1e7865f85dbee58b6c3a",
+    "fits/seed_15/fit.json": "b73c9d0882476a879a47cd3a69dadc9bf37b2ea1f4d36f5ad2698379868e8519",
+    "fits/seed_15/history.csv": "6b76a221e9fa08a0da42187fd1ec921c82358ab71bb87782e1608240dd852cd3",
+    "fits/seed_15/estimator.joblib": "3313a30c6dd478e7573b1ac668643d0a678a83acc98631d74972703eb1166f54",
+    "fits/seed_14/fit.json": "89dbb87cdb8322d4b07ad946e45e1fe017d06795678513ebfe3c4460d7815543",
+    "fits/seed_14/history.csv": "a8cfddc4b4ad075f69aaf4d57c869c094be9aa3bce02df4998edbff425d5d631",
+    "fits/seed_14/estimator.joblib": "3dfdd673a908a76a0beac76fa52137f78af532ca030d730e480abd5ea759abe8",
+    "fits/seed_12/fit.json": "62fb4e4c6ed0cec9cd262e635bb4839443710e97d20c8adfa57e0a0f744cdd83",
+    "fits/seed_12/history.csv": "3d75b01db764322b97984c1cf27a1977e35bd1d5a8e58930d86db73ac6c9da2f",
+    "fits/seed_12/estimator.joblib": "cb62187f4044e369c18e8e3a19795e323940065751cdaccbf5ea3472f5b6c5c2",
+    "protocol.json": "ab463503083bf07375337f9913d0bb28191041dad5cce0d2c89291a9d4cbc3ed",
+    "cache/train/manifest.json": "5761463e2f07fe196269826e491a421e14c1590f9aa6855584d8055d78503a70",
+    "cache/validation/manifest.json": "526ff75665a5af92e3ae4cdf1dbdbac7b437d4521e99d8732d12566f12a8b262"
+  },
+  "test_scored": false
+}

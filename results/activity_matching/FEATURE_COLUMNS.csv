@@ -1,0 +1,45 @@
+index,name,pure36,formula
+0,sife_call_in_entropy,True,-sum(q_j*ln(q_j))
+1,sife_call_in_entropy_norm,True,entropy/ln(N) if N>1 else0
+2,sife_call_in_hhi,True,sum(q_j^2)
+3,sife_call_in_jsd_freq_val,True,"0.5*KL(p||m)+0.5*KL(q||m), m=(p+q)/2, natural log"
+4,sife_call_in_max_share,True,max(value_j)/V if V>0 else1/N for N>0
+5,sife_call_in_std_log_val,False,population_std(ln(1+value_j)) across incident records
+6,sife_call_in_mean_tx_val,False,ln(1+V/C) if C>0 else0
+7,sife_call_out_entropy,True,-sum(q_j*ln(q_j))
+8,sife_call_out_entropy_norm,True,entropy/ln(N) if N>1 else0
+9,sife_call_out_hhi,True,sum(q_j^2)
+10,sife_call_out_jsd_freq_val,True,"0.5*KL(p||m)+0.5*KL(q||m), m=(p+q)/2, natural log"
+11,sife_call_out_max_share,True,max(value_j)/V if V>0 else1/N for N>0
+12,sife_call_out_std_log_val,False,population_std(ln(1+value_j)) across incident records
+13,sife_call_out_mean_tx_val,False,ln(1+V/C) if C>0 else0
+14,sife_trans_in_entropy,True,-sum(q_j*ln(q_j))
+15,sife_trans_in_entropy_norm,True,entropy/ln(N) if N>1 else0
+16,sife_trans_in_hhi,True,sum(q_j^2)
+17,sife_trans_in_jsd_freq_val,True,"0.5*KL(p||m)+0.5*KL(q||m), m=(p+q)/2, natural log"
+18,sife_trans_in_max_share,True,max(value_j)/V if V>0 else1/N for N>0
+19,sife_trans_in_std_log_val,False,population_std(ln(1+value_j)) across incident records
+20,sife_trans_in_mean_tx_val,False,ln(1+V/C) if C>0 else0
+21,sife_trans_out_entropy,True,-sum(q_j*ln(q_j))
+22,sife_trans_out_entropy_norm,True,entropy/ln(N) if N>1 else0
+23,sife_trans_out_hhi,True,sum(q_j^2)
+24,sife_trans_out_jsd_freq_val,True,"0.5*KL(p||m)+0.5*KL(q||m), m=(p+q)/2, natural log"
+25,sife_trans_out_max_share,True,max(value_j)/V if V>0 else1/N for N>0
+26,sife_trans_out_std_log_val,False,population_std(ln(1+value_j)) across incident records
+27,sife_trans_out_mean_tx_val,False,ln(1+V/C) if C>0 else0
+28,sife_call_funnel_entropy,True,H_in-H_out
+29,sife_call_funnel_hhi,True,HHI_out-HHI_in
+30,sife_call_asym_deg,True,(N_in-N_out)/(N_in+N_out)
+31,sife_call_asym_flow,True,(V_in-V_out)/(V_in+V_out)
+32,sife_trans_funnel_entropy,True,H_in-H_out
+33,sife_trans_funnel_hhi,True,HHI_out-HHI_in
+34,sife_trans_asym_deg,True,(N_in-N_out)/(N_in+N_out)
+35,sife_trans_asym_flow,True,(V_in-V_out)/(V_in+V_out)
+36,sife_call_in_ca_edge_ratio,True,N_CA/N
+37,sife_call_in_ca_count_ratio,True,C_CA/C
+38,sife_call_out_ca_edge_ratio,True,N_CA/N
+39,sife_call_out_ca_count_ratio,True,C_CA/C
+40,sife_trans_in_ca_edge_ratio,True,N_CA/N
+41,sife_trans_in_ca_count_ratio,True,C_CA/C
+42,sife_trans_out_ca_edge_ratio,True,N_CA/N
+43,sife_trans_out_ca_count_ratio,True,C_CA/C

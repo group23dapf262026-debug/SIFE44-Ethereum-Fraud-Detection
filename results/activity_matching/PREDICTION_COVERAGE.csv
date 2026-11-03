@@ -1,0 +1,11 @@
+dataset,model,verified_frozen_prediction_files
+Phish,gat,400
+Phish,sage,400
+Phish,lightgbm,400
+Phish,metaifd,300
+Phish,rf,400
+Ponzi,gat,400
+Ponzi,sage,400
+Ponzi,lightgbm,400
+Ponzi,metaifd,300
+Ponzi,rf,400

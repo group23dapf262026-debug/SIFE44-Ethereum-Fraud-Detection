@@ -1,0 +1,25 @@
+{
+  "dataset": "Phish",
+  "target": "EOA",
+  "rule": "unchanged released masks; no resplitting",
+  "sizes": {
+    "train": 1657,
+    "validation": 553,
+    "test": 553
+  },
+  "positives": {
+    "train": 724,
+    "validation": 241,
+    "test": 241
+  },
+  "address_intersections": {
+    "train_validation": [],
+    "train_test": [
+      "0x7f183cce61efcabb8d2eb1340f2a94c5eb1bf8e5"
+    ],
+    "validation_test": []
+  },
+  "unique_addresses": 2762,
+  "removed_ids": [],
+  "exact_paper_table_run_recovered": false
+}

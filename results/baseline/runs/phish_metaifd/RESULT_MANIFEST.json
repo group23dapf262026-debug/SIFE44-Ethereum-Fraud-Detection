@@ -1,0 +1,25 @@
+{
+  "identity": "73a216093bbd3c0a982a3ca561a8b100c227ec2b527faf0e7e66e96c05513bc4",
+  "model_lock_sha256": "88646e018d9c0a22f11b431427168890d7857abb82ec436bc928a8f908ca5cf0",
+  "files": {
+    "metrics.csv": "cac7ea4cec2f716a74dd06d023c5a978e108d665f05a212df4228ac8e17a20d2",
+    "summary.csv": "8519d1cce2913ed7f8cb27db4766b035413332fda728378da0cc7d142e5022fd",
+    "predictions/seed_16_train.csv": "692a738f6a60563f099fcebfbc05497c5cf97494df79919a81f939fcae67fe27",
+    "predictions/seed_15_validation.csv": "e698be59e95fdd8a463c634acea1131a8a499d0c0da9e1427ed1d4dd6587fcc1",
+    "predictions/seed_15_test.csv": "90cac65a575422f7f4b0cf0811b1364654e02848ed5b30cbc93503187862d7c5",
+    "predictions/seed_13_validation.csv": "67bee1656e4f527ee2d353d41ca66cfc465f75bb7a820a7359ed8e9fe0544401",
+    "predictions/seed_13_test.csv": "719ce790c33ee6c0aa03bcd721d6ea1290ce2ae11f8840c6ff59875a8681c5e2",
+    "predictions/seed_12_validation.csv": "2a88c85d1e0da96b2f607e78ef528a67864fe1875b14aa8a2cdf5a11ef866ea9",
+    "predictions/seed_13_train.csv": "cf02c12e2fda1aabaa621b41b726a777d349b7df89a41e6d941f01349af7bec3",
+    "predictions/seed_14_train.csv": "61f4642bf6eeb2f2d237da939ddb3120619ae81550a9b8381947bb7e23f18e1e",
+    "predictions/seed_14_test.csv": "48d432dde1b1e4290b08f008c49c4981a0ce0c17cdaef817b4d09ac0460ed777",
+    "predictions/seed_16_test.csv": "57d2e291e13442acb3ce053a86f967049d3778ac876e8288af2cff0eb8d0af5e",
+    "predictions/seed_14_validation.csv": "86b382b5e558deb4941cb3bdbb0fa0e93ebb6c5ff4469be42c251e891fafba27",
+    "predictions/seed_12_train.csv": "1cc55b9831fcca7fd3ec7b4fc3056b0e2cbd624ba39595cd8ea580342648816c",
+    "predictions/seed_12_test.csv": "f9e166cc4e43899ee88b95109ec46af98268c06f278b142e60f35a045e2b02a5",
+    "predictions/seed_16_validation.csv": "59b8d584c957fa6a1ad84097d8d0984ed8afe35129077c822216bc63257f0725",
+    "predictions/seed_15_train.csv": "56b3d19e98b675eee7219fbf261a5a7b501545e1fa92ae39a622b6ec221d7bfc"
+  },
+  "full_benchmark": true,
+  "test_used_for_selection": false
+}

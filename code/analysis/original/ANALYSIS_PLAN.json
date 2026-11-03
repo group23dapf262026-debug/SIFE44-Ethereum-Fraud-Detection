@@ -1,0 +1,40 @@
+{
+  "analysis_id": "sife20_posthoc_stability_activity_match_v1_20261029",
+  "status": "LOCKED_RULES_BEFORE_MATCHED_OUTCOME_COMPUTATION",
+  "development": "Exploratory post-hoc analysis. Full-test study scores were already examined; this is not preregistered or a newly blinded test.",
+  "inputs": "Ten previously audited complete SIFE20 result ZIPs; all3800fits frozen. No training, threshold changes, model selection or feature selection.",
+  "datasets": ["Phish", "Ponzi"],
+  "models": ["metaifd", "gat", "sage", "lightgbm", "rf"],
+  "partition_seeds": "2001-2020",
+  "model_seeds": "12-16",
+  "primary_descriptive_analysis": {
+    "unit": "Average five model seeds within each partition; then paired arm-minus-X14 differences across20 overlapping partitions.",
+    "report": "Mean/sampleSD, median,10th/90th empirical percentiles,min/max and wins/ties/losses. Empirical percentiles are not confidence intervals.",
+    "metrics": ["macro_f1", "binary_f1", "precision", "recall", "fpr", "average_precision", "roc_auc"],
+    "scope": "Descriptive evidence on the reused corpus; no assumption of100independent runs."
+  },
+  "optional_inference_sensitivity": {
+    "method": "Nadeau-Bengio approximate corrected resampled t, applied to partition-mean Macro-F1 differences; SE=sqrt((1/20+n_test/n_train)*sample_variance),t_df19,two-sided95%pointwise intervals.",
+    "source": "https://papers.neurips.cc/paper/1999/file/7d12b66d3df6af8d429c1a357d8b9e1a-Paper.pdf",
+    "family": "20two-sided comparisons: X14_SIFE44-X14 and X14_Pure36-X14 for5models on2datasets; Holm correction jointly across20tests.",
+    "training_fraction": "Use actual TRAIN root count and full TEST root count, not TRAIN+VAL, consistently for every model. No choice of correction after examining p-values.",
+    "limitations": "Approximation only: original analysis assumes independent observations and average losses; graph nodes are dependent and Macro-F1 is non-additive. These intervals/p-values are an assumption-dependent sensitivity, not validated inferential proof for this transductive graph design. CI endpoints are pointwise, not simultaneous or Holm-adjusted."
+  },
+  "activity_matching": {
+    "variables": ["log1p(total incident count)", "log1p(total incident value)"],
+    "variable_definition": "Use the two already exported roots.activity columns. They aggregate all four call/transfer in/out channels; they are processed incident weights, not independently audited unique on-chain transaction counts or ETH units.",
+    "scaling": "Pooled TRAIN-root mean and population SD per variable, per partition, without using TRAIN labels; replace zeroSD by1. No TEST-fit preprocessing.",
+    "population": "Only existing TEST roots. Case-control1:1positive-negative matching without replacement; no model scores, predictions or per-address errors enter matching.",
+    "distance": "Euclidean distance in the two TRAIN-standardized log-activity columns.",
+    "caliper": 0.5,
+    "assignment": "Deterministic sorted nodeIDs; maximize number of eligible pairs first, then minimize total distance using optimal bipartite assignment with dummy unmatched columns. No caliper search or alternative matching selected by outcome.",
+    "reuse": "Exactly one matched address subset per dataset/partition, shared across every model/arm/modelseed. Freeze all40memberships and hashes before reading matched predictions.",
+    "coverage": "Report every partition, positive-retention fraction,matched pair count,unique retained addresses and repeated appearances. Compute metrics if at least1pair; flag fewer than10pairs as small and never silently discard them. Zero-pair partitions produce NA and stay in coverage tables.",
+    "balance": "Before/after positive-negative mean differences divided by fixed TRAIN SD for each matching variable, plus pair-distance summaries. Absolute standardized difference<0.1 is descriptive balance diagnostic, not proof of exact equality. Always show failures.",
+    "evaluation": "Apply the already stored score>.5decisions and probabilities to matched TEST addresses. No refit,threshold optimization or recalibration.",
+    "report": "Within the same matched population, compare X14/Pure36/X14_Pure36/X14_SIFE44; seed-average within partition,then descriptive mean/sampleSD and paired differences. No formal matched-subset significance test.",
+    "limitations": "Matching changes prevalence to50%and discards non-overlap cases. Precision/AP/Macro-F1 on this set are not directly comparable to original test populations. Matching controls two aggregate activity variables approximately, not all monetary information, all X14features or causality. Matched is not guaranteed hard for every model."
+  },
+  "integrity": "Verify audit-source roots/prediction/metric hashes and shared cohort membership; keep originals and main result tables unchanged.",
+  "publication_boundary": "No temporal,external-data,causal,money-independence or new test-blind claims. All additions are labelled post-hoc."
+}

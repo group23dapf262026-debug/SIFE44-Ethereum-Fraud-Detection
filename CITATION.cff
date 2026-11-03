@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the associated SIFE44 manuscript and this artifact using the final bibliographic record when available."
+type: software
+title: "SIFE44: Capturing Interaction Distributions for Ethereum Fraud Detection - Research Artifact"
+version: "0.1.0"
+authors:
+  - family-names: Duong
+    given-names: Duy Loi
+    affiliation: "FPT University, Ho Chi Minh City, Vietnam"
+  - family-names: Tran
+    given-names: Thanh Dat
+    affiliation: "FPT University, Ho Chi Minh City, Vietnam"
+  - family-names: Hoang
+    given-names: Duy Luu
+    affiliation: "FPT University, Ho Chi Minh City, Vietnam"
+  - family-names: Tran
+    given-names: Minh Huy
+    affiliation: "FPT University, Ho Chi Minh City, Vietnam"
+  - family-names: Le
+    given-names: Nhat-Tung
+    affiliation: "FPT University, Ho Chi Minh City, Vietnam"
+abstract: "Readable code and frozen evidence for SIFE44/Pure36 comparisons on Phish and Ponzi, including repeated-partition experiments, group removal and exploratory activity matching."

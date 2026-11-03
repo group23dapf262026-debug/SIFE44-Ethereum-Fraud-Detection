@@ -1,0 +1,44 @@
+{
+  "mean": [
+    -0.6883927583694458,
+    0.1529400646686554,
+    0.8591820001602173,
+    0.5134093165397644,
+    1.3583495616912842,
+    -0.32499057054519653,
+    0.34772977232933044,
+    0.6630487442016602,
+    2.7899818420410156,
+    2.5241613388061523,
+    1.3741767406463623,
+    1.374936580657959,
+    2.0359911918640137,
+    1.7620532512664795
+  ],
+  "scale": [
+    1.728476881980896,
+    0.9501165151596069,
+    1.5818626880645752,
+    1.4438316822052002,
+    1.456850528717041,
+    0.5241664052009583,
+    0.9880325198173523,
+    1.6355725526809692,
+    2.6224753856658936,
+    2.5985305309295654,
+    0.8199391961097717,
+    0.8288402557373047,
+    2.3120357990264893,
+    2.18780517578125
+  ],
+  "constant_columns": [],
+  "unique_train_nodes": 215624,
+  "counts_by_type": {
+    "EOA": 181502,
+    "CA": 34122
+  },
+  "labels_used": false,
+  "fitting_scope": "unique (type,id) in TRAIN sampled batches, including unlabeled neighbors; no validation/test batch fitting",
+  "transform": "sign(x)*log1p(abs(x)); population SD; no clipping; frozen float32 buffers",
+  "computation": "chunked float64 mean then centered second pass; chunk summation may differ in rounding from full-tensor audit"
+}

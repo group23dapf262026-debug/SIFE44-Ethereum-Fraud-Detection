@@ -1,0 +1,562 @@
+[
+  {
+    "source": "phish_gat.csv.gz",
+    "source_sha256": "74889ec35fa997035d195ce61fd6ebf321ad27935d995e5bcc665f7aebe5f235",
+    "shard": "phish_gat_part01.csv.gz",
+    "shard_sha256": "119943c69f9007759468ed789d0966744150539b5dc608299a17ec0539bdd856",
+    "rows": 55300,
+    "split_seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ]
+  },
+  {
+    "source": "phish_gat.csv.gz",
+    "source_sha256": "74889ec35fa997035d195ce61fd6ebf321ad27935d995e5bcc665f7aebe5f235",
+    "shard": "phish_gat_part02.csv.gz",
+    "shard_sha256": "d5c2e515a4f8b678f5cb7e990a231b88a343271bfca8e07f063b2dbee401c5bc",
+    "rows": 55300,
+    "split_seeds": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ]
+  },
+  {
+    "source": "phish_gat.csv.gz",
+    "source_sha256": "74889ec35fa997035d195ce61fd6ebf321ad27935d995e5bcc665f7aebe5f235",
+    "shard": "phish_gat_part03.csv.gz",
+    "shard_sha256": "7a4af34f37498c6bad207028bf1ac5f5beecf7974cb9eccfccf8867aa528e388",
+    "rows": 55300,
+    "split_seeds": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "source": "phish_gat.csv.gz",
+    "source_sha256": "74889ec35fa997035d195ce61fd6ebf321ad27935d995e5bcc665f7aebe5f235",
+    "shard": "phish_gat_part04.csv.gz",
+    "shard_sha256": "e1fa882d987e6f64c6fc551689534382534ec9df5497c05e068fa2bf02c9fb00",
+    "rows": 55300,
+    "split_seeds": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
+  },
+  {
+    "source": "phish_lightgbm.csv.gz",
+    "source_sha256": "fbaff580bcb60552c97fa809b7406d6cc9ed856be4607d19c264a0c0fbd3e8bf",
+    "shard": "phish_lightgbm_part01.csv.gz",
+    "shard_sha256": "f32bf6a3d9f1ce68cb1d198f7c39ca5cb367608f2823c98461201b5d758dbec2",
+    "rows": 55300,
+    "split_seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ]
+  },
+  {
+    "source": "phish_lightgbm.csv.gz",
+    "source_sha256": "fbaff580bcb60552c97fa809b7406d6cc9ed856be4607d19c264a0c0fbd3e8bf",
+    "shard": "phish_lightgbm_part02.csv.gz",
+    "shard_sha256": "c5a1cd65d7e739b777085b24ae600e01e82ddcb17bb86e86668807617dd5479b",
+    "rows": 55300,
+    "split_seeds": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ]
+  },
+  {
+    "source": "phish_lightgbm.csv.gz",
+    "source_sha256": "fbaff580bcb60552c97fa809b7406d6cc9ed856be4607d19c264a0c0fbd3e8bf",
+    "shard": "phish_lightgbm_part03.csv.gz",
+    "shard_sha256": "8153ca7f15281664bcc4e213e924c9e31e9f4585344d5d321689a5e4f1d7fd38",
+    "rows": 55300,
+    "split_seeds": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "source": "phish_lightgbm.csv.gz",
+    "source_sha256": "fbaff580bcb60552c97fa809b7406d6cc9ed856be4607d19c264a0c0fbd3e8bf",
+    "shard": "phish_lightgbm_part04.csv.gz",
+    "shard_sha256": "31b9d4aa888a0e0fd5443acdeccd4ddf223619fc0a619c2a00d9a0e7b017bc27",
+    "rows": 55300,
+    "split_seeds": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
+  },
+  {
+    "source": "phish_metaifd.csv.gz",
+    "source_sha256": "56b91e72a75de3a0dff49ff92f2fe7b4d75d8ec69f5f609aed86f7ba876e9098",
+    "shard": "phish_metaifd_part01.csv.gz",
+    "shard_sha256": "71055022fce94dab505ff22955af6f5877ab766e142437ff7c8160d840956224",
+    "rows": 41475,
+    "split_seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ]
+  },
+  {
+    "source": "phish_metaifd.csv.gz",
+    "source_sha256": "56b91e72a75de3a0dff49ff92f2fe7b4d75d8ec69f5f609aed86f7ba876e9098",
+    "shard": "phish_metaifd_part02.csv.gz",
+    "shard_sha256": "62904bad5e68a69c607d04c4f01069c969062547115361591aa6cce8d340008d",
+    "rows": 41475,
+    "split_seeds": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ]
+  },
+  {
+    "source": "phish_metaifd.csv.gz",
+    "source_sha256": "56b91e72a75de3a0dff49ff92f2fe7b4d75d8ec69f5f609aed86f7ba876e9098",
+    "shard": "phish_metaifd_part03.csv.gz",
+    "shard_sha256": "25b9c3dc647eb867f2f73c328af2cdd3c5d1bf99f3f8283e89ade2eb3ecc3e4a",
+    "rows": 41475,
+    "split_seeds": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "source": "phish_metaifd.csv.gz",
+    "source_sha256": "56b91e72a75de3a0dff49ff92f2fe7b4d75d8ec69f5f609aed86f7ba876e9098",
+    "shard": "phish_metaifd_part04.csv.gz",
+    "shard_sha256": "d543dbe288815d38273bd287edc00904c755a178d24f843741120b6a4fcba993",
+    "rows": 41475,
+    "split_seeds": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
+  },
+  {
+    "source": "phish_rf.csv.gz",
+    "source_sha256": "0225b5fd14f9d481f156e5f0ed484eac808c3b8e129f1d4140ec91b9e119d2a3",
+    "shard": "phish_rf_part01.csv.gz",
+    "shard_sha256": "76c4e92cf0ead8ce31540db3b5954720025f32295d71f17315a2a849167f0a66",
+    "rows": 55300,
+    "split_seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ]
+  },
+  {
+    "source": "phish_rf.csv.gz",
+    "source_sha256": "0225b5fd14f9d481f156e5f0ed484eac808c3b8e129f1d4140ec91b9e119d2a3",
+    "shard": "phish_rf_part02.csv.gz",
+    "shard_sha256": "f412843321edf14f281102787b871b54f63fec9c5ecace5faaf97586ab906751",
+    "rows": 55300,
+    "split_seeds": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ]
+  },
+  {
+    "source": "phish_rf.csv.gz",
+    "source_sha256": "0225b5fd14f9d481f156e5f0ed484eac808c3b8e129f1d4140ec91b9e119d2a3",
+    "shard": "phish_rf_part03.csv.gz",
+    "shard_sha256": "820291c29eca84936b9c8309cd436d8fae60306df5bbbb199314a449d0c6cf7c",
+    "rows": 55300,
+    "split_seeds": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "source": "phish_rf.csv.gz",
+    "source_sha256": "0225b5fd14f9d481f156e5f0ed484eac808c3b8e129f1d4140ec91b9e119d2a3",
+    "shard": "phish_rf_part04.csv.gz",
+    "shard_sha256": "d8f81cc14b269569b16cad1bdd4df37acaae4c39bd19bd326490e364ff2c622b",
+    "rows": 55300,
+    "split_seeds": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
+  },
+  {
+    "source": "phish_sage.csv.gz",
+    "source_sha256": "095c37240583366a2494221e88127ab3b5fd8084322ae6500b9daa9e0febfb80",
+    "shard": "phish_sage_part01.csv.gz",
+    "shard_sha256": "42a0c0778f4004e1d6c75a494b7670efb56c6760bc868a5719e631198d37196f",
+    "rows": 55300,
+    "split_seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ]
+  },
+  {
+    "source": "phish_sage.csv.gz",
+    "source_sha256": "095c37240583366a2494221e88127ab3b5fd8084322ae6500b9daa9e0febfb80",
+    "shard": "phish_sage_part02.csv.gz",
+    "shard_sha256": "0a56ae1b585b98e6da664aea3dd663972552cc5101d08594acf42b7718b23183",
+    "rows": 55300,
+    "split_seeds": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ]
+  },
+  {
+    "source": "phish_sage.csv.gz",
+    "source_sha256": "095c37240583366a2494221e88127ab3b5fd8084322ae6500b9daa9e0febfb80",
+    "shard": "phish_sage_part03.csv.gz",
+    "shard_sha256": "cc9a32f074521449b259ec7ab4b94cf5754c41fc22ab778464dfd814d025c31d",
+    "rows": 55300,
+    "split_seeds": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "source": "phish_sage.csv.gz",
+    "source_sha256": "095c37240583366a2494221e88127ab3b5fd8084322ae6500b9daa9e0febfb80",
+    "shard": "phish_sage_part04.csv.gz",
+    "shard_sha256": "0e6bbf321a33e9c07fd414bd69903f36fa1b2a4d02c0670448b6c2ca42346bea",
+    "rows": 55300,
+    "split_seeds": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
+  },
+  {
+    "source": "ponzi_gat.csv.gz",
+    "source_sha256": "d5d0538e148f2dd2ab77a01a6b7a05a76ad2aff22a02ec147118ca2a054c9499",
+    "shard": "ponzi_gat_part01.csv.gz",
+    "shard_sha256": "db058b274165cf336e02128e1523f8bd33bcd64a45ee7265016faa233e422eb4",
+    "rows": 26900,
+    "split_seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ]
+  },
+  {
+    "source": "ponzi_gat.csv.gz",
+    "source_sha256": "d5d0538e148f2dd2ab77a01a6b7a05a76ad2aff22a02ec147118ca2a054c9499",
+    "shard": "ponzi_gat_part02.csv.gz",
+    "shard_sha256": "543f588ed17b74d5f39032adad0b3c5375fb067b13d545df4e96cd42c5929bc9",
+    "rows": 26900,
+    "split_seeds": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ]
+  },
+  {
+    "source": "ponzi_gat.csv.gz",
+    "source_sha256": "d5d0538e148f2dd2ab77a01a6b7a05a76ad2aff22a02ec147118ca2a054c9499",
+    "shard": "ponzi_gat_part03.csv.gz",
+    "shard_sha256": "c9c389403490efadf382f8801b22267ca5c74ec7f3198ef38a15077e5e43f116",
+    "rows": 26900,
+    "split_seeds": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "source": "ponzi_gat.csv.gz",
+    "source_sha256": "d5d0538e148f2dd2ab77a01a6b7a05a76ad2aff22a02ec147118ca2a054c9499",
+    "shard": "ponzi_gat_part04.csv.gz",
+    "shard_sha256": "05f7451b1199ac988362ed7a1ac8a318096d97192835f5f8c0d013461b34aee6",
+    "rows": 26900,
+    "split_seeds": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
+  },
+  {
+    "source": "ponzi_lightgbm.csv.gz",
+    "source_sha256": "2245120920e6d9f84799a07b52fb6d50d1f39d2db81276da0a0db35245d3eb7d",
+    "shard": "ponzi_lightgbm_part01.csv.gz",
+    "shard_sha256": "1b5f58ce17f9a09bf35ac57b7895c0cb0ab234f9aa1382490629f86f81844d35",
+    "rows": 26900,
+    "split_seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ]
+  },
+  {
+    "source": "ponzi_lightgbm.csv.gz",
+    "source_sha256": "2245120920e6d9f84799a07b52fb6d50d1f39d2db81276da0a0db35245d3eb7d",
+    "shard": "ponzi_lightgbm_part02.csv.gz",
+    "shard_sha256": "ef0f73f64a941384c510bfa6ca5f99881cab780b3ec3e1d81fce654e578aed35",
+    "rows": 26900,
+    "split_seeds": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ]
+  },
+  {
+    "source": "ponzi_lightgbm.csv.gz",
+    "source_sha256": "2245120920e6d9f84799a07b52fb6d50d1f39d2db81276da0a0db35245d3eb7d",
+    "shard": "ponzi_lightgbm_part03.csv.gz",
+    "shard_sha256": "68f941634ba5ea2e0bf183aeae7ad68843c1b6f1ae47d9e68512efa71de0b267",
+    "rows": 26900,
+    "split_seeds": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "source": "ponzi_lightgbm.csv.gz",
+    "source_sha256": "2245120920e6d9f84799a07b52fb6d50d1f39d2db81276da0a0db35245d3eb7d",
+    "shard": "ponzi_lightgbm_part04.csv.gz",
+    "shard_sha256": "04ea9aef38a1604a60ece747e69a109ce3095837a2bec3933d8b507969fc148c",
+    "rows": 26900,
+    "split_seeds": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
+  },
+  {
+    "source": "ponzi_metaifd.csv.gz",
+    "source_sha256": "1b4b0f33a68e34146509321c80d180abada8d3de46195a0b90a73a29b2b7a937",
+    "shard": "ponzi_metaifd_part01.csv.gz",
+    "shard_sha256": "013077e7369438b957e63197a7a5a3f421cd04a19315275233480639f725e894",
+    "rows": 20175,
+    "split_seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ]
+  },
+  {
+    "source": "ponzi_metaifd.csv.gz",
+    "source_sha256": "1b4b0f33a68e34146509321c80d180abada8d3de46195a0b90a73a29b2b7a937",
+    "shard": "ponzi_metaifd_part02.csv.gz",
+    "shard_sha256": "53a26ae8cf702f20b1028dedff9bed5dc406649acf90cc84c45c14e0728c15f5",
+    "rows": 20175,
+    "split_seeds": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ]
+  },
+  {
+    "source": "ponzi_metaifd.csv.gz",
+    "source_sha256": "1b4b0f33a68e34146509321c80d180abada8d3de46195a0b90a73a29b2b7a937",
+    "shard": "ponzi_metaifd_part03.csv.gz",
+    "shard_sha256": "e628bddfb2f470c7f3fac23611fac804a1f07b3528d833911f8751aa0df00652",
+    "rows": 20175,
+    "split_seeds": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "source": "ponzi_metaifd.csv.gz",
+    "source_sha256": "1b4b0f33a68e34146509321c80d180abada8d3de46195a0b90a73a29b2b7a937",
+    "shard": "ponzi_metaifd_part04.csv.gz",
+    "shard_sha256": "50635bcbf3d92ff7fd2c4e4d4e78e9421359842b9f8cf2b4ec0ee253ab15543e",
+    "rows": 20175,
+    "split_seeds": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
+  },
+  {
+    "source": "ponzi_rf.csv.gz",
+    "source_sha256": "d36f5df907c609752d39612a79a59ab1748a4d5c566713a9c39b2d3ddc70cbe6",
+    "shard": "ponzi_rf_part01.csv.gz",
+    "shard_sha256": "706eba3b1b7f5a34d9b63153c8b95a241cdab28ed75d1485109a2c14986abf72",
+    "rows": 26900,
+    "split_seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ]
+  },
+  {
+    "source": "ponzi_rf.csv.gz",
+    "source_sha256": "d36f5df907c609752d39612a79a59ab1748a4d5c566713a9c39b2d3ddc70cbe6",
+    "shard": "ponzi_rf_part02.csv.gz",
+    "shard_sha256": "1f1edb0ca985f451bba6245d21583d00da1fb09dd4fe04ca1499d12ef9288534",
+    "rows": 26900,
+    "split_seeds": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ]
+  },
+  {
+    "source": "ponzi_rf.csv.gz",
+    "source_sha256": "d36f5df907c609752d39612a79a59ab1748a4d5c566713a9c39b2d3ddc70cbe6",
+    "shard": "ponzi_rf_part03.csv.gz",
+    "shard_sha256": "00f34f821be0d82b00f93fb124826c134f1dd48f9f82be903a73ebf335b44ef6",
+    "rows": 26900,
+    "split_seeds": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "source": "ponzi_rf.csv.gz",
+    "source_sha256": "d36f5df907c609752d39612a79a59ab1748a4d5c566713a9c39b2d3ddc70cbe6",
+    "shard": "ponzi_rf_part04.csv.gz",
+    "shard_sha256": "75935ed6d2d4eeb0dae4ac6a5cd5169c8b9fcb1046c7561e9f9ec2f70ada6f32",
+    "rows": 26900,
+    "split_seeds": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
+  },
+  {
+    "source": "ponzi_sage.csv.gz",
+    "source_sha256": "909c9d76cd35898f3e86bfc19220af18e7682f3a49a0b9bbc3b5af591915db25",
+    "shard": "ponzi_sage_part01.csv.gz",
+    "shard_sha256": "5339adbc066e9a8e9e1609aa786bb169a93e157c0773bdc1115d256381da2ca7",
+    "rows": 26900,
+    "split_seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ]
+  },
+  {
+    "source": "ponzi_sage.csv.gz",
+    "source_sha256": "909c9d76cd35898f3e86bfc19220af18e7682f3a49a0b9bbc3b5af591915db25",
+    "shard": "ponzi_sage_part02.csv.gz",
+    "shard_sha256": "54b4d0036c8625b00912f7fd7a306a930c08cafb7d43fe04e34cf8d874be4c24",
+    "rows": 26900,
+    "split_seeds": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ]
+  },
+  {
+    "source": "ponzi_sage.csv.gz",
+    "source_sha256": "909c9d76cd35898f3e86bfc19220af18e7682f3a49a0b9bbc3b5af591915db25",
+    "shard": "ponzi_sage_part03.csv.gz",
+    "shard_sha256": "90f30793fe257be7486715fa2f787505035f8f9cab2fe89562262e79dc38bf47",
+    "rows": 26900,
+    "split_seeds": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "source": "ponzi_sage.csv.gz",
+    "source_sha256": "909c9d76cd35898f3e86bfc19220af18e7682f3a49a0b9bbc3b5af591915db25",
+    "shard": "ponzi_sage_part04.csv.gz",
+    "shard_sha256": "d6107f388c7c680629c0db7a7022d11e2fdcc3c97a87acad9c6c6741e91d0b63",
+    "rows": 26900,
+    "split_seeds": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
+  }
+]

@@ -1,0 +1,1255 @@
+[
+  {
+    "file": "code/experiments/main/assets/decoder_tensor_values.json",
+    "source": "decoder_tensor_values.json",
+    "source_sha256": "911d49e195bf752efb4bbc65e1e5ab2c994de1ca0b2ca21a9f5da661e733e4b3",
+    "artifact_sha256": "911d49e195bf752efb4bbc65e1e5ab2c994de1ca0b2ca21a9f5da661e733e4b3",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/assets/release_reference_Phish.json",
+    "source": "release_reference_Phish.json",
+    "source_sha256": "971686b139bb035ad591fe3923e291ca5e5429fc282ab40d61e90de5c50b6b47",
+    "artifact_sha256": "971686b139bb035ad591fe3923e291ca5e5429fc282ab40d61e90de5c50b6b47",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/assets/release_reference_Ponzi.json",
+    "source": "release_reference_Ponzi.json",
+    "source_sha256": "19cf5419f39a0cc8ff1046b3605ea69d2eb772bcd7cd920fc615227383f6b15f",
+    "artifact_sha256": "19cf5419f39a0cc8ff1046b3605ea69d2eb772bcd7cd920fc615227383f6b15f",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/assets/reviewed_fixture_values.json",
+    "source": "reviewed_fixture_values.json",
+    "source_sha256": "0a0c1c6799f115c97382d8dc51933c863a1009cf6c5d3c36315da8dc4f38d28f",
+    "artifact_sha256": "0a0c1c6799f115c97382d8dc51933c863a1009cf6c5d3c36315da8dc4f38d28f",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/FEATURE_COLUMNS.csv",
+    "source": "FEATURE_COLUMNS.csv",
+    "source_sha256": "dfd82f82a1084aed561ef073be46cc38577012f37ff3f79a4a81d7465e2ab790",
+    "artifact_sha256": "dfd82f82a1084aed561ef073be46cc38577012f37ff3f79a4a81d7465e2ab790",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/FEATURE_DEFINITION.json",
+    "source": "FEATURE_DEFINITION.json",
+    "source_sha256": "4d2dc09665081cc5c976fd697af30d15fa64bad44c986f0f714d7c3a5d74f8ab",
+    "artifact_sha256": "4d2dc09665081cc5c976fd697af30d15fa64bad44c986f0f714d7c3a5d74f8ab",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/FEATURE_SPEC.md",
+    "source": "FEATURE_SPEC.md",
+    "source_sha256": "53be5607485b124dc02e2a939fbe2255e8471441ff9b17ea3b6f9821294b9afe",
+    "artifact_sha256": "f6f567cb88af12663e35ccb9fd41c8c563b426a63113cace7b7ddf966299a7fe",
+    "transformation": "English editorial terminology only"
+  },
+  {
+    "file": "code/experiments/main/KAGGLE_GNN_ENVIRONMENT_FIX.py",
+    "source": "KAGGLE_GNN_ENVIRONMENT_FIX.py",
+    "source_sha256": "437acac7f872cf0e9ac8114ff067bd6730946c2a423b363a3f5751999b39b06a",
+    "artifact_sha256": "437acac7f872cf0e9ac8114ff067bd6730946c2a423b363a3f5751999b39b06a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/Phish/01_Phish_MetaIFD_MAIN20_RUN_ALL.ipynb",
+    "source": "01_Phish_MetaIFD_MAIN20_RUN_ALL.ipynb",
+    "source_sha256": "d790375c2df758a0c3c8b86ce8e32e32f891258789ca5787fd3f4cea2355e12a",
+    "artifact_sha256": "578fc53cfb5e5597bb46b887fcb13c470ea335e679eb58730abe05899ac81240",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/main/Phish/02_Phish_GAT_MAIN20_RUN_ALL.ipynb",
+    "source": "02_Phish_GAT_MAIN20_RUN_ALL.ipynb",
+    "source_sha256": "bee7349f2f71a966ac248433835b957f8cffff59e6aecf14b8d3cd34a072c066",
+    "artifact_sha256": "c9f50b890f0be3345381e9a1327955a064d96ae1c22d1060917dc2a10df3e412",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/main/Phish/03_Phish_GraphSAGE_MAIN20_RUN_ALL.ipynb",
+    "source": "03_Phish_GraphSAGE_MAIN20_RUN_ALL.ipynb",
+    "source_sha256": "27728b35ff535a169e1d44cf193c5478eff6bf3cf4661a612d04fbab11dc60b3",
+    "artifact_sha256": "cf1580e5fe1683938462eab261e96414bde58e5ed6c9b92349bd44cae18ff765",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/main/Phish/04_Phish_LightGBM_MAIN20_RUN_ALL.ipynb",
+    "source": "04_Phish_LightGBM_MAIN20_RUN_ALL.ipynb",
+    "source_sha256": "2b85a69a5cf90d528956fa8dcec3ed6c07596cb0ab116792c570c68991794b20",
+    "artifact_sha256": "fc112e71f650314ac07a0c496b4ead45ffe81ac57304d8fb056d8eab7d03ca50",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/main/Phish/05_Phish_RF_MAIN20_RUN_ALL.ipynb",
+    "source": "05_Phish_RF_MAIN20_RUN_ALL.ipynb",
+    "source_sha256": "6acb9bdd0cbe7898155b8f308ece5c42250f998e4b750767f338c0b230daeb83",
+    "artifact_sha256": "4edce7d2e61cabaa033ce36de0f9e770d41c8276d4fd29e5744225a4943ceb35",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/main/Ponzi/01_Ponzi_MetaIFD_MAIN20_RUN_ALL.ipynb",
+    "source": "01_Ponzi_MetaIFD_MAIN20_RUN_ALL.ipynb",
+    "source_sha256": "1c0fec5b0bd7582b11e9be308ae1f0f0cc3791aedcd1f9d86cdccc1352855a43",
+    "artifact_sha256": "1b399e7109f1fb0473ae6b6cb3269239c1837eefbb105b79f9575bda3bfa4cf4",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/main/Ponzi/02_Ponzi_GAT_MAIN20_RUN_ALL.ipynb",
+    "source": "02_Ponzi_GAT_MAIN20_RUN_ALL.ipynb",
+    "source_sha256": "6c36e08a4a1b8c753fceb27577824dda7703d82aa2c1e8b3469ff208570aa9df",
+    "artifact_sha256": "f4ef32a7818f1ab4676ed6a7a56f4a153681e174f7bab6bbc8d2397202f4c71d",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/main/Ponzi/03_Ponzi_GraphSAGE_MAIN20_RUN_ALL.ipynb",
+    "source": "03_Ponzi_GraphSAGE_MAIN20_RUN_ALL.ipynb",
+    "source_sha256": "0afe0c0e538e4e027aa60fce81852f5b54f56a23fb57145ae25142a276e1899c",
+    "artifact_sha256": "ef57c210333a94eddbf7218964294d7a7f1a3601ee66365a331c5374263d56fc",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/main/Ponzi/04_Ponzi_LightGBM_MAIN20_RUN_ALL.ipynb",
+    "source": "04_Ponzi_LightGBM_MAIN20_RUN_ALL.ipynb",
+    "source_sha256": "c64bfe21020a880a88eee57070c6e759fa4947d232b2f899cd32f8767d6b1677",
+    "artifact_sha256": "7a9147cdeee9e66971e88d8bd964e9bd327f8a335c1db6e711df72098c14c385",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/main/Ponzi/05_Ponzi_RF_MAIN20_RUN_ALL.ipynb",
+    "source": "05_Ponzi_RF_MAIN20_RUN_ALL.ipynb",
+    "source_sha256": "6807c7bd192fff7d8c49ddaf4b6977163ca4a8e05bcbfce08020b2aa76f599a6",
+    "artifact_sha256": "192cebaac04ded67d13da47c149f777e03878522799304139919ff1d6c139057",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/main/requirements-author-era-tested.txt",
+    "source": "requirements-author-era-tested.txt",
+    "source_sha256": "0f7509bfaff588941173dec4af80160bf199602b030f7e065850cdfc4a4b30c6",
+    "artifact_sha256": "0f7509bfaff588941173dec4af80160bf199602b030f7e065850cdfc4a4b30c6",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/requirements.txt",
+    "source": "requirements.txt",
+    "source_sha256": "516ccc17283dbc7289831196e05c3bec6ec1e40fedef31ca991aab2bc0023c68",
+    "artifact_sha256": "516ccc17283dbc7289831196e05c3bec6ec1e40fedef31ca991aab2bc0023c68",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/__init__.py",
+    "source": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifact_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/attention_conv.py",
+    "source": "attention_conv.py",
+    "source_sha256": "af7e08a852190cc24697130e49d1a705d02b19b2d712d490a7bcdc2f9c7d2db3",
+    "artifact_sha256": "af7e08a852190cc24697130e49d1a705d02b19b2d712d490a7bcdc2f9c7d2db3",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/cache.py",
+    "source": "cache.py",
+    "source_sha256": "ca95984f75b50f72d918aca51b7d069b0431ef619004980a83b7f311600375dd",
+    "artifact_sha256": "ca95984f75b50f72d918aca51b7d069b0431ef619004980a83b7f311600375dd",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/data.py",
+    "source": "data.py",
+    "source_sha256": "6cd1748c8ee701dd7c038205e995894febe5dc2cf7b55ff0ed773039fc2c29dd",
+    "artifact_sha256": "6cd1748c8ee701dd7c038205e995894febe5dc2cf7b55ff0ed773039fc2c29dd",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/evaluation.py",
+    "source": "evaluation.py",
+    "source_sha256": "4b38a38ec76614cf0c43d87cb67ebf6ac07b74be356418654ddaaf1bebd8e4f9",
+    "artifact_sha256": "4b38a38ec76614cf0c43d87cb67ebf6ac07b74be356418654ddaaf1bebd8e4f9",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/features.py",
+    "source": "features.py",
+    "source_sha256": "c365d03dcd254e6681bd74a52eacd7724e18b2697cc5f3dd0400277ba8e906c4",
+    "artifact_sha256": "c365d03dcd254e6681bd74a52eacd7724e18b2697cc5f3dd0400277ba8e906c4",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/metrics.py",
+    "source": "metrics.py",
+    "source_sha256": "313ab9b5ae4b7cc6bce9f0f28c9648e16bc20047e9ea3e01e83991379e95a64a",
+    "artifact_sha256": "313ab9b5ae4b7cc6bce9f0f28c9648e16bc20047e9ea3e01e83991379e95a64a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/models.py",
+    "source": "models.py",
+    "source_sha256": "40d5fc4ae340147045edbdb23113d40a3654c992c79c4f9b19ee4c6c816e2fb5",
+    "artifact_sha256": "40d5fc4ae340147045edbdb23113d40a3654c992c79c4f9b19ee4c6c816e2fb5",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/models_meta.py",
+    "source": "models_meta.py",
+    "source_sha256": "605f638a207516ac422bc34c65f1c7a7ba5d2fdec166b1ff3f5993fe4b02b882",
+    "artifact_sha256": "605f638a207516ac422bc34c65f1c7a7ba5d2fdec166b1ff3f5993fe4b02b882",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/protocol.py",
+    "source": "protocol.py",
+    "source_sha256": "1c0a8d9c92cbacab43af49a88e6d2b889eeb0ac7d6895ad16edcf819326ca66e",
+    "artifact_sha256": "1c0a8d9c92cbacab43af49a88e6d2b889eeb0ac7d6895ad16edcf819326ca66e",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/sampling.py",
+    "source": "sampling.py",
+    "source_sha256": "47c0733728b62b46a9278e18060cbaf002fd0a4b48a070854319b63496090001",
+    "artifact_sha256": "47c0733728b62b46a9278e18060cbaf002fd0a4b48a070854319b63496090001",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/tabular_inputs.py",
+    "source": "tabular_inputs.py",
+    "source_sha256": "4395dde7b18f193d64632fd8cbbe496ceaa9c4b7922cad08708956c861b6c70b",
+    "artifact_sha256": "4395dde7b18f193d64632fd8cbbe496ceaa9c4b7922cad08708956c861b6c70b",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/training.py",
+    "source": "training.py",
+    "source_sha256": "2c3625d17e4a632ca3316c27433555aacfa7a349cd95c198b9b1393463131f02",
+    "artifact_sha256": "2c3625d17e4a632ca3316c27433555aacfa7a349cd95c198b9b1393463131f02",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/utilities.py",
+    "source": "utilities.py",
+    "source_sha256": "0c7b84b41fbfb1bb99ee236f7fc756a15f095c921f5d2b45feb120b72fcd0521",
+    "artifact_sha256": "0c7b84b41fbfb1bb99ee236f7fc756a15f095c921f5d2b45feb120b72fcd0521",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/sife20/views.py",
+    "source": "views.py",
+    "source_sha256": "22008ab302d189fd4b9913123963c837164ca329bad7d648ad3c71588880b4dd",
+    "artifact_sha256": "22008ab302d189fd4b9913123963c837164ca329bad7d648ad3c71588880b4dd",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tests/test_features.py",
+    "source": "test_features.py",
+    "source_sha256": "ee6a088a514d7225f18550003e51879eb141de7484fe99163da7e01ff8779949",
+    "artifact_sha256": "ee6a088a514d7225f18550003e51879eb141de7484fe99163da7e01ff8779949",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tests/test_five_scope.py",
+    "source": "test_five_scope.py",
+    "source_sha256": "9f65895857ee08e8b02fa809dc48631db99be2fc0b6b1e7abb0b1afbba8683b3",
+    "artifact_sha256": "9f65895857ee08e8b02fa809dc48631db99be2fc0b6b1e7abb0b1afbba8683b3",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tests/test_input_data.py",
+    "source": "test_input_data.py",
+    "source_sha256": "924f0cbf28499438ca6f88f1f542142dad119919a47fc0f10642e37f00add43f",
+    "artifact_sha256": "924f0cbf28499438ca6f88f1f542142dad119919a47fc0f10642e37f00add43f",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tests/test_native_environment.py",
+    "source": "test_native_environment.py",
+    "source_sha256": "a6d5b0f8530cb47fa63b57146cfb1136d6883032d2eace4434ff697d98c749cb",
+    "artifact_sha256": "a6d5b0f8530cb47fa63b57146cfb1136d6883032d2eace4434ff697d98c749cb",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tests/test_study.py",
+    "source": "test_study.py",
+    "source_sha256": "bbc4f280b611e6b08584a00395fbc0efcd330bd3b46e02f63b68451a13be2a0b",
+    "artifact_sha256": "bbc4f280b611e6b08584a00395fbc0efcd330bd3b46e02f63b68451a13be2a0b",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tests/test_tabular_fix.py",
+    "source": "test_tabular_fix.py",
+    "source_sha256": "12332eda602a2994a02a1c82a8bba2c7e413bff9f736ff80455dcd0bc78276df",
+    "artifact_sha256": "12332eda602a2994a02a1c82a8bba2c7e413bff9f736ff80455dcd0bc78276df",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tools/audit_backbones.py",
+    "source": "audit_backbones.py",
+    "source_sha256": "3507bacfc6bc2eb4e1897f8c84a81b57036ca5dec51895daa246dd841963c639",
+    "artifact_sha256": "3507bacfc6bc2eb4e1897f8c84a81b57036ca5dec51895daa246dd841963c639",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tools/base_environment.py",
+    "source": "base_environment.py",
+    "source_sha256": "a52f83e07acdf4020865f16622315635a725fe978bd0437c288ff5bcb8d9bd2a",
+    "artifact_sha256": "a52f83e07acdf4020865f16622315635a725fe978bd0437c288ff5bcb8d9bd2a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tools/collect_results.py",
+    "source": "collect_results.py",
+    "source_sha256": "d553ccf3e087f025ead1b96d792ce87e7b432507f02a180c787d6e6a5c8ab473",
+    "artifact_sha256": "d553ccf3e087f025ead1b96d792ce87e7b432507f02a180c787d6e6a5c8ab473",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tools/native_environment.py",
+    "source": "native_environment.py",
+    "source_sha256": "48ee23763757aa4d7c8f5097677b6cba4e4f92cce92d9f9dcde00220f2340063",
+    "artifact_sha256": "48ee23763757aa4d7c8f5097677b6cba4e4f92cce92d9f9dcde00220f2340063",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tools/validate_environment_cell.py",
+    "source": "validate_environment_cell.py",
+    "source_sha256": "a586018f0cc335261b8f72c61b4c484c795a2711adf6fb4fecf27a756cf6fbe3",
+    "artifact_sha256": "a586018f0cc335261b8f72c61b4c484c795a2711adf6fb4fecf27a756cf6fbe3",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tools/validate_real_notebooks.py",
+    "source": "validate_real_notebooks.py",
+    "source_sha256": "acfbcd862a5ad53bf202160cecaf9c8b7750881e9d391d2a0fbf6ed25a363708",
+    "artifact_sha256": "acfbcd862a5ad53bf202160cecaf9c8b7750881e9d391d2a0fbf6ed25a363708",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/main/tools/verify_feature_split_parity.py",
+    "source": "verify_feature_split_parity.py",
+    "source_sha256": "fbd4ac2650ba08f6001a642cb7930a604f424f506951105159c8a46ca3f32c11",
+    "artifact_sha256": "fbd4ac2650ba08f6001a642cb7930a604f424f506951105159c8a46ca3f32c11",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/assets/decoder_tensor_values.json",
+    "source": "decoder_tensor_values.json",
+    "source_sha256": "911d49e195bf752efb4bbc65e1e5ab2c994de1ca0b2ca21a9f5da661e733e4b3",
+    "artifact_sha256": "911d49e195bf752efb4bbc65e1e5ab2c994de1ca0b2ca21a9f5da661e733e4b3",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/assets/release_reference_Phish.json",
+    "source": "release_reference_Phish.json",
+    "source_sha256": "971686b139bb035ad591fe3923e291ca5e5429fc282ab40d61e90de5c50b6b47",
+    "artifact_sha256": "971686b139bb035ad591fe3923e291ca5e5429fc282ab40d61e90de5c50b6b47",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/assets/release_reference_Ponzi.json",
+    "source": "release_reference_Ponzi.json",
+    "source_sha256": "19cf5419f39a0cc8ff1046b3605ea69d2eb772bcd7cd920fc615227383f6b15f",
+    "artifact_sha256": "19cf5419f39a0cc8ff1046b3605ea69d2eb772bcd7cd920fc615227383f6b15f",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/assets/reviewed_fixture_values.json",
+    "source": "reviewed_fixture_values.json",
+    "source_sha256": "0a0c1c6799f115c97382d8dc51933c863a1009cf6c5d3c36315da8dc4f38d28f",
+    "artifact_sha256": "0a0c1c6799f115c97382d8dc51933c863a1009cf6c5d3c36315da8dc4f38d28f",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/FEATURE_COLUMNS.csv",
+    "source": "FEATURE_COLUMNS.csv",
+    "source_sha256": "dfd82f82a1084aed561ef073be46cc38577012f37ff3f79a4a81d7465e2ab790",
+    "artifact_sha256": "dfd82f82a1084aed561ef073be46cc38577012f37ff3f79a4a81d7465e2ab790",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/FEATURE_DEFINITION.json",
+    "source": "FEATURE_DEFINITION.json",
+    "source_sha256": "69abf22e05eff8a104cea240b42766e03fb8891249db9cc43e742f4852e1d7e0",
+    "artifact_sha256": "69abf22e05eff8a104cea240b42766e03fb8891249db9cc43e742f4852e1d7e0",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/FEATURE_SPEC.md",
+    "source": "FEATURE_SPEC.md",
+    "source_sha256": "5a76a74b4858730decc5ea50adbf835fac5185a39488e26daa4c4539b535c4e2",
+    "artifact_sha256": "d4a832d787abc5b6ca924d9e0e8d0d786f256ea1e9c00711d500c588d8e84d52",
+    "transformation": "English editorial terminology only"
+  },
+  {
+    "file": "code/experiments/ablation/GROUP_ABLATION_SPEC.md",
+    "source": "GROUP_ABLATION_SPEC.md",
+    "source_sha256": "74816bbbf30e9cc694e8b274e95b32756cf80ddc288933820709f9989f96d8e7",
+    "artifact_sha256": "6cc715fa35cd0a270d0934eaa2505a07a902a089e558c8bebfff5258ca752010",
+    "transformation": "English editorial terminology only"
+  },
+  {
+    "file": "code/experiments/ablation/GROUP_COLUMNS.csv",
+    "source": "GROUP_COLUMNS.csv",
+    "source_sha256": "34b9001937055ea19153e1d4fd522f2be2755786c867fb890ff988a8dd752a22",
+    "artifact_sha256": "34b9001937055ea19153e1d4fd522f2be2755786c867fb890ff988a8dd752a22",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/KAGGLE_GNN_ENVIRONMENT_FIX.py",
+    "source": "KAGGLE_GNN_ENVIRONMENT_FIX.py",
+    "source_sha256": "437acac7f872cf0e9ac8114ff067bd6730946c2a423b363a3f5751999b39b06a",
+    "artifact_sha256": "437acac7f872cf0e9ac8114ff067bd6730946c2a423b363a3f5751999b39b06a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/Phish/01_Phish_MetaIFD_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source": "01_Phish_MetaIFD_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source_sha256": "b28a602226332fb8bcb1a03129dd2b15b399433ec9c18ae41c9af8141c77e0d6",
+    "artifact_sha256": "904bb0af5ba1bd58ad72ebc059ad390e9ca51df880ca117996422d455fba336f",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/ablation/Phish/02_Phish_GAT_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source": "02_Phish_GAT_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source_sha256": "d05357d819782ff731b7602adabd553694eb632533a5184274b60070c2a29f52",
+    "artifact_sha256": "d2c0e6870777f223897f9e62e14e929e38628e49bdc127a6985e0e9695e9ebb4",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/ablation/Phish/03_Phish_GraphSAGE_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source": "03_Phish_GraphSAGE_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source_sha256": "6a13f3c422c85a85a7ec6936e204f51ea4e5a99700993683a0e00b9e112142b5",
+    "artifact_sha256": "3687f47eb15b705aa0e4220b066f62aca30604226beee3e3da1de79f7c09a861",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/ablation/Phish/04_Phish_LightGBM_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source": "04_Phish_LightGBM_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source_sha256": "40fc31990ea4614f7b93185974d6b1d470ab7da0650615b8adef0b4c61ac3eca",
+    "artifact_sha256": "80c09f7b42780cbdc4a543f41488455d0018eb06251ba0d55216f71cf82bb98a",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/ablation/Phish/05_Phish_RF_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source": "05_Phish_RF_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source_sha256": "63762aabf01d7a8d757694072e4feac472277c1ec354d3cf11df1f6557d38aad",
+    "artifact_sha256": "124f40c7ae8034daf523239405e3a40336b6ff5162be8ebd98ebe04d0b6a4e7a",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/ablation/Ponzi/01_Ponzi_MetaIFD_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source": "01_Ponzi_MetaIFD_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source_sha256": "cb85fb6f65787979911b3f0deacb1d323126a1afe93fa7795f7e34c944a38b24",
+    "artifact_sha256": "6b28661a3e675bcf9e1a9257bbbece938b776793ad7e8e7ac5d29119cae83e7c",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/ablation/Ponzi/02_Ponzi_GAT_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source": "02_Ponzi_GAT_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source_sha256": "18067088e3c593242d00b1c6b2cf0f3711d4dd5cbeb9a6197911b91d123fbf2d",
+    "artifact_sha256": "2c04871344db6e04172fafcda34a1b542116647325d9a0ec016d650e3274bd9f",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/ablation/Ponzi/03_Ponzi_GraphSAGE_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source": "03_Ponzi_GraphSAGE_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source_sha256": "4410eee30849b1e3732ee90b9b6a7fa04cd7cd00deb412daff12e21c036b4032",
+    "artifact_sha256": "0e800fff5a34b4eb243a1e03f3111806c035a9adee3f23d14a50a00c3e546a7c",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/ablation/Ponzi/04_Ponzi_LightGBM_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source": "04_Ponzi_LightGBM_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source_sha256": "a9a5328ff2dddee59b0271acc04658bcfc64c92d0755250c446615f891f61cd5",
+    "artifact_sha256": "d191b93ae8be9677d38ac9f51f23fb64bb088a4b2a8a2f86c704ab528fbe6585",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/ablation/Ponzi/05_Ponzi_RF_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source": "05_Ponzi_RF_GROUP_ABLATION20_RUN_ALL.ipynb",
+    "source_sha256": "1931ae0d3289cfa0a4c4d50d851836b741f2199785db710ddfd781c6d721d4d9",
+    "artifact_sha256": "37395c3f4dd35d1720d434a47dd405150928eb1977b80da1380e76fc68fa33d1",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/ablation/requirements-author-era-tested.txt",
+    "source": "requirements-author-era-tested.txt",
+    "source_sha256": "0f7509bfaff588941173dec4af80160bf199602b030f7e065850cdfc4a4b30c6",
+    "artifact_sha256": "0f7509bfaff588941173dec4af80160bf199602b030f7e065850cdfc4a4b30c6",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/requirements.txt",
+    "source": "requirements.txt",
+    "source_sha256": "516ccc17283dbc7289831196e05c3bec6ec1e40fedef31ca991aab2bc0023c68",
+    "artifact_sha256": "516ccc17283dbc7289831196e05c3bec6ec1e40fedef31ca991aab2bc0023c68",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/__init__.py",
+    "source": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifact_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/attention_conv.py",
+    "source": "attention_conv.py",
+    "source_sha256": "af7e08a852190cc24697130e49d1a705d02b19b2d712d490a7bcdc2f9c7d2db3",
+    "artifact_sha256": "af7e08a852190cc24697130e49d1a705d02b19b2d712d490a7bcdc2f9c7d2db3",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/cache.py",
+    "source": "cache.py",
+    "source_sha256": "ca95984f75b50f72d918aca51b7d069b0431ef619004980a83b7f311600375dd",
+    "artifact_sha256": "ca95984f75b50f72d918aca51b7d069b0431ef619004980a83b7f311600375dd",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/data.py",
+    "source": "data.py",
+    "source_sha256": "6cd1748c8ee701dd7c038205e995894febe5dc2cf7b55ff0ed773039fc2c29dd",
+    "artifact_sha256": "6cd1748c8ee701dd7c038205e995894febe5dc2cf7b55ff0ed773039fc2c29dd",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/evaluation.py",
+    "source": "evaluation.py",
+    "source_sha256": "054bc7b4b76f0b536968a8f655007c0028e3aca0e09c18ba89d5ddc67662e180",
+    "artifact_sha256": "054bc7b4b76f0b536968a8f655007c0028e3aca0e09c18ba89d5ddc67662e180",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/features.py",
+    "source": "features.py",
+    "source_sha256": "e50785faf8d1420fab1fc112a83a6c73608dcf957cd5ca92d1e270ee1db30479",
+    "artifact_sha256": "e50785faf8d1420fab1fc112a83a6c73608dcf957cd5ca92d1e270ee1db30479",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/metrics.py",
+    "source": "metrics.py",
+    "source_sha256": "313ab9b5ae4b7cc6bce9f0f28c9648e16bc20047e9ea3e01e83991379e95a64a",
+    "artifact_sha256": "313ab9b5ae4b7cc6bce9f0f28c9648e16bc20047e9ea3e01e83991379e95a64a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/models.py",
+    "source": "models.py",
+    "source_sha256": "546b86c824038631f5b0dcd586d3a7638a219d0b0fe2319cbbda243863febb58",
+    "artifact_sha256": "546b86c824038631f5b0dcd586d3a7638a219d0b0fe2319cbbda243863febb58",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/models_meta.py",
+    "source": "models_meta.py",
+    "source_sha256": "605f638a207516ac422bc34c65f1c7a7ba5d2fdec166b1ff3f5993fe4b02b882",
+    "artifact_sha256": "605f638a207516ac422bc34c65f1c7a7ba5d2fdec166b1ff3f5993fe4b02b882",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/protocol.py",
+    "source": "protocol.py",
+    "source_sha256": "e069a3a572afbbccca0eb8334a5ac3e9693dd1978c739aeb4613eff030a5e888",
+    "artifact_sha256": "e069a3a572afbbccca0eb8334a5ac3e9693dd1978c739aeb4613eff030a5e888",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/sampling.py",
+    "source": "sampling.py",
+    "source_sha256": "47c0733728b62b46a9278e18060cbaf002fd0a4b48a070854319b63496090001",
+    "artifact_sha256": "47c0733728b62b46a9278e18060cbaf002fd0a4b48a070854319b63496090001",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/tabular_inputs.py",
+    "source": "tabular_inputs.py",
+    "source_sha256": "0465d3fb88f56cd9541fec9299e280db68be437ae7b6e27806df359a208f7c6f",
+    "artifact_sha256": "0465d3fb88f56cd9541fec9299e280db68be437ae7b6e27806df359a208f7c6f",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/training.py",
+    "source": "training.py",
+    "source_sha256": "2c3625d17e4a632ca3316c27433555aacfa7a349cd95c198b9b1393463131f02",
+    "artifact_sha256": "2c3625d17e4a632ca3316c27433555aacfa7a349cd95c198b9b1393463131f02",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/utilities.py",
+    "source": "utilities.py",
+    "source_sha256": "0c7b84b41fbfb1bb99ee236f7fc756a15f095c921f5d2b45feb120b72fcd0521",
+    "artifact_sha256": "0c7b84b41fbfb1bb99ee236f7fc756a15f095c921f5d2b45feb120b72fcd0521",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/sife20/views.py",
+    "source": "views.py",
+    "source_sha256": "22008ab302d189fd4b9913123963c837164ca329bad7d648ad3c71588880b4dd",
+    "artifact_sha256": "22008ab302d189fd4b9913123963c837164ca329bad7d648ad3c71588880b4dd",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tests/test_collector_formats.py",
+    "source": "test_collector_formats.py",
+    "source_sha256": "f0b43e5cea704706eb63b795c0c56fdeb721d98d044d21329bf7640308edad62",
+    "artifact_sha256": "f0b43e5cea704706eb63b795c0c56fdeb721d98d044d21329bf7640308edad62",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tests/test_features.py",
+    "source": "test_features.py",
+    "source_sha256": "ee6a088a514d7225f18550003e51879eb141de7484fe99163da7e01ff8779949",
+    "artifact_sha256": "ee6a088a514d7225f18550003e51879eb141de7484fe99163da7e01ff8779949",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tests/test_five_scope.py",
+    "source": "test_five_scope.py",
+    "source_sha256": "d48fed414c137b5a30fbf844d6925b5ff7ba59aac1e19e97f27b282e656ec37c",
+    "artifact_sha256": "d48fed414c137b5a30fbf844d6925b5ff7ba59aac1e19e97f27b282e656ec37c",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tests/test_group_ablation.py",
+    "source": "test_group_ablation.py",
+    "source_sha256": "b13d4f53ea5512b0c658cf2c47fb9ed7f709ef1b3e0a53017404f02ff4ce71f3",
+    "artifact_sha256": "b13d4f53ea5512b0c658cf2c47fb9ed7f709ef1b3e0a53017404f02ff4ce71f3",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tests/test_input_data.py",
+    "source": "test_input_data.py",
+    "source_sha256": "924f0cbf28499438ca6f88f1f542142dad119919a47fc0f10642e37f00add43f",
+    "artifact_sha256": "924f0cbf28499438ca6f88f1f542142dad119919a47fc0f10642e37f00add43f",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tests/test_native_environment.py",
+    "source": "test_native_environment.py",
+    "source_sha256": "cb33fc74f746f3ed64b5bd6f10b16df3f89c56eb2a8148ccd645e06c83310a77",
+    "artifact_sha256": "cb33fc74f746f3ed64b5bd6f10b16df3f89c56eb2a8148ccd645e06c83310a77",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tests/test_study.py",
+    "source": "test_study.py",
+    "source_sha256": "dee451d2a5a9d3cd47ff6ce5161f389b57d08ccab4d5ceda51bd87915b40fd52",
+    "artifact_sha256": "dee451d2a5a9d3cd47ff6ce5161f389b57d08ccab4d5ceda51bd87915b40fd52",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tests/test_tabular_fix.py",
+    "source": "test_tabular_fix.py",
+    "source_sha256": "12332eda602a2994a02a1c82a8bba2c7e413bff9f736ff80455dcd0bc78276df",
+    "artifact_sha256": "12332eda602a2994a02a1c82a8bba2c7e413bff9f736ff80455dcd0bc78276df",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tools/audit_backbones.py",
+    "source": "audit_backbones.py",
+    "source_sha256": "269041e588b98cb6f9a18dd29c3ccf869e2c5c2142c12fc72b473a0213a2267f",
+    "artifact_sha256": "269041e588b98cb6f9a18dd29c3ccf869e2c5c2142c12fc72b473a0213a2267f",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tools/base_environment.py",
+    "source": "base_environment.py",
+    "source_sha256": "a52f83e07acdf4020865f16622315635a725fe978bd0437c288ff5bcb8d9bd2a",
+    "artifact_sha256": "a52f83e07acdf4020865f16622315635a725fe978bd0437c288ff5bcb8d9bd2a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tools/collect_results.py",
+    "source": "collect_results.py",
+    "source_sha256": "7cce9d1e46b7b0110754257045e93b2ee86c7ac1a7d559a4fe736029674bb44f",
+    "artifact_sha256": "7cce9d1e46b7b0110754257045e93b2ee86c7ac1a7d559a4fe736029674bb44f",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tools/native_environment.py",
+    "source": "native_environment.py",
+    "source_sha256": "5dafac31b7d44e16c3e347d315f4a056c77bab8b411db50acb13628bfa6a61b2",
+    "artifact_sha256": "5dafac31b7d44e16c3e347d315f4a056c77bab8b411db50acb13628bfa6a61b2",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tools/validate_environment_cell.py",
+    "source": "validate_environment_cell.py",
+    "source_sha256": "55500816bc2667b12cdbbb1310413e35f529c107dbd7c5a3cc02c3c1b6dcefc0",
+    "artifact_sha256": "55500816bc2667b12cdbbb1310413e35f529c107dbd7c5a3cc02c3c1b6dcefc0",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tools/validate_real_notebooks.py",
+    "source": "validate_real_notebooks.py",
+    "source_sha256": "b04b0f8cb2dd1cbc01ef6f76d264c594da7714d0aee70c67d8980924917f1283",
+    "artifact_sha256": "b04b0f8cb2dd1cbc01ef6f76d264c594da7714d0aee70c67d8980924917f1283",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tools/verify_completed_control.py",
+    "source": "verify_completed_control.py",
+    "source_sha256": "6e2caf66f8d2492026affc7bc5f066931d2d95a9f4ebcf535634db101beb9a43",
+    "artifact_sha256": "6e2caf66f8d2492026affc7bc5f066931d2d95a9f4ebcf535634db101beb9a43",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/ablation/tools/verify_feature_split_parity.py",
+    "source": "verify_feature_split_parity.py",
+    "source_sha256": "e064f309d9432347921d2ee418c4ae04549e889b37a5bbec0337164b73891ef5",
+    "artifact_sha256": "e064f309d9432347921d2ee418c4ae04549e889b37a5bbec0337164b73891ef5",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/assets/decoder_tensor_values.json",
+    "source": "decoder_tensor_values.json",
+    "source_sha256": "911d49e195bf752efb4bbc65e1e5ab2c994de1ca0b2ca21a9f5da661e733e4b3",
+    "artifact_sha256": "911d49e195bf752efb4bbc65e1e5ab2c994de1ca0b2ca21a9f5da661e733e4b3",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/assets/release_reference_Phish.json",
+    "source": "release_reference_Phish.json",
+    "source_sha256": "7526d70d224518e91584efc8259ed3eca2fbd6ced0037ac498f79cd6cc06c273",
+    "artifact_sha256": "7526d70d224518e91584efc8259ed3eca2fbd6ced0037ac498f79cd6cc06c273",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/assets/release_reference_Ponzi.json",
+    "source": "release_reference_Ponzi.json",
+    "source_sha256": "c7ffac86cf4436dc8d5af41fe42e25db43b888ac69a5df32eed28c3bc6c6acd8",
+    "artifact_sha256": "c7ffac86cf4436dc8d5af41fe42e25db43b888ac69a5df32eed28c3bc6c6acd8",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/baseline/__init__.py",
+    "source": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifact_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/baseline/attention_conv.py",
+    "source": "attention_conv.py",
+    "source_sha256": "af7e08a852190cc24697130e49d1a705d02b19b2d712d490a7bcdc2f9c7d2db3",
+    "artifact_sha256": "af7e08a852190cc24697130e49d1a705d02b19b2d712d490a7bcdc2f9c7d2db3",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/baseline/data.py",
+    "source": "data.py",
+    "source_sha256": "38ee04c158da933a18142196c15f425478a1d92ff4b50161fe0a0722d3ba9691",
+    "artifact_sha256": "38ee04c158da933a18142196c15f425478a1d92ff4b50161fe0a0722d3ba9691",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/baseline/metrics.py",
+    "source": "metrics.py",
+    "source_sha256": "313ab9b5ae4b7cc6bce9f0f28c9648e16bc20047e9ea3e01e83991379e95a64a",
+    "artifact_sha256": "313ab9b5ae4b7cc6bce9f0f28c9648e16bc20047e9ea3e01e83991379e95a64a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/baseline/models.py",
+    "source": "models.py",
+    "source_sha256": "a5dfa383456f9e0fbf3b3299f6decf5499ee7298d5730aacfde6d2e855f4cb4e",
+    "artifact_sha256": "a5dfa383456f9e0fbf3b3299f6decf5499ee7298d5730aacfde6d2e855f4cb4e",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/baseline/models_meta.py",
+    "source": "models_meta.py",
+    "source_sha256": "af74b12af52f8a4313376cc19f3d5b3e02611086ecc16a46160f637425fd425e",
+    "artifact_sha256": "af74b12af52f8a4313376cc19f3d5b3e02611086ecc16a46160f637425fd425e",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/baseline/sampling.py",
+    "source": "sampling.py",
+    "source_sha256": "47c0733728b62b46a9278e18060cbaf002fd0a4b48a070854319b63496090001",
+    "artifact_sha256": "47c0733728b62b46a9278e18060cbaf002fd0a4b48a070854319b63496090001",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/baseline/study.py",
+    "source": "study.py",
+    "source_sha256": "d5506813702ccc3da70b80c1af3c7e198c4412430b4aeefb30e91f8dd2a94f6f",
+    "artifact_sha256": "d5506813702ccc3da70b80c1af3c7e198c4412430b4aeefb30e91f8dd2a94f6f",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/baseline/utilities.py",
+    "source": "utilities.py",
+    "source_sha256": "0c7b84b41fbfb1bb99ee236f7fc756a15f095c921f5d2b45feb120b72fcd0521",
+    "artifact_sha256": "0c7b84b41fbfb1bb99ee236f7fc756a15f095c921f5d2b45feb120b72fcd0521",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/KAGGLE_GNN_ENVIRONMENT_FIX.py",
+    "source": "KAGGLE_GNN_ENVIRONMENT_FIX.py",
+    "source_sha256": "b64633adaf0874bd2fe810bb84712a773b6f72929296b57fdaf7c1fa0ae1d1d6",
+    "artifact_sha256": "b64633adaf0874bd2fe810bb84712a773b6f72929296b57fdaf7c1fa0ae1d1d6",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/Phish/01_Phish_MetaIFD_BASELINE_X14_RUN_ALL.ipynb",
+    "source": "01_Phish_MetaIFD_BASELINE_X14_RUN_ALL.ipynb",
+    "source_sha256": "de7c077fb0f042c660a0dfcccedfae1b237b6ccf2d6a54d60af7f69ce6486a51",
+    "artifact_sha256": "7e2cdd2b6e4ac58eb97cac2237695f9728216311837c35ee1e0794fae7b31641",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/Phish/02_Phish_GAT_BASELINE_X14_RUN_ALL.ipynb",
+    "source": "02_Phish_GAT_BASELINE_X14_RUN_ALL.ipynb",
+    "source_sha256": "a595795ea5a667aebb754cf0d83573fe7f138e8c1e5cd7eb3ab5f7c83050d33d",
+    "artifact_sha256": "3409536aed03bb91575c3de24cd2225a586f9f0e52db570d5fa827bc9ff9da27",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/Phish/03_Phish_GraphSAGE_BASELINE_X14_RUN_ALL.ipynb",
+    "source": "03_Phish_GraphSAGE_BASELINE_X14_RUN_ALL.ipynb",
+    "source_sha256": "0d4942b57ad4269eee1833cd2c8046d4c7682789fe8622f054bf61fa57924aed",
+    "artifact_sha256": "e657f3c5009ff6aafefadffdf0e3c3642dd0486616b27221f950817d6ae44841",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/Phish/05_Phish_RF_BASELINE_X14_RUN_ALL.ipynb",
+    "source": "05_Phish_RF_BASELINE_X14_RUN_ALL.ipynb",
+    "source_sha256": "e67d0075446b774cb757f679bc98649245646fb9d59f5f9f41edf6a4fd1ced0a",
+    "artifact_sha256": "738f16329f8e708a7fbdf654b70d3583a56251b2f0ee4bc4c324505a74025e6c",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/Ponzi/01_Ponzi_MetaIFD_BASELINE_X14_RUN_ALL.ipynb",
+    "source": "01_Ponzi_MetaIFD_BASELINE_X14_RUN_ALL.ipynb",
+    "source_sha256": "38a6827bc63af031818d2681780b6954445861914485adf339eafa43d77b80ff",
+    "artifact_sha256": "2ed4a73ea37597461f87c0b30ee7ce59345c39e473aef34c5b7ec035d167b3c4",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/Ponzi/02_Ponzi_GAT_BASELINE_X14_RUN_ALL.ipynb",
+    "source": "02_Ponzi_GAT_BASELINE_X14_RUN_ALL.ipynb",
+    "source_sha256": "ede5156e1d03f74769aa40488f77c20167e388965c12000076eed889409d0733",
+    "artifact_sha256": "dfaa0551d79fa7296e3929578d750e888d6cbb3b74ec3b72b635aaef26c7b9d0",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/Ponzi/03_Ponzi_GraphSAGE_BASELINE_X14_RUN_ALL.ipynb",
+    "source": "03_Ponzi_GraphSAGE_BASELINE_X14_RUN_ALL.ipynb",
+    "source_sha256": "0a51f4b42f1492479a0fc13772d2d0744a940344760d1168a84c2f03ec579cc1",
+    "artifact_sha256": "f9d7f74275ad53138f55578a10b3987607882d1e13599c89596618a8aa6e276e",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/Ponzi/05_Ponzi_RF_BASELINE_X14_RUN_ALL.ipynb",
+    "source": "05_Ponzi_RF_BASELINE_X14_RUN_ALL.ipynb",
+    "source_sha256": "0bfa4452dac543d7c61256044f4507b30363edbf0db64f5fbf0951a8de4f46d1",
+    "artifact_sha256": "80da43ad51a18910a2059d762d183cf241b4053b0e457adb2a84e10216581135",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/REFERENCE_SOURCE_HASHES.json",
+    "source": "REFERENCE_SOURCE_HASHES.json",
+    "source_sha256": "a6fce1f233023b4713cbbe663aed12e50fe14b796ab13672394de765b001268c",
+    "artifact_sha256": "a6fce1f233023b4713cbbe663aed12e50fe14b796ab13672394de765b001268c",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/REPRODUCTION_SHEET.csv",
+    "source": "REPRODUCTION_SHEET.csv",
+    "source_sha256": "8074f91168be552f2ec73f31bb2ff4eb2344122cf5f6ff51dabf043c76446562",
+    "artifact_sha256": "8074f91168be552f2ec73f31bb2ff4eb2344122cf5f6ff51dabf043c76446562",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/requirements-author-era-tested.txt",
+    "source": "requirements-author-era-tested.txt",
+    "source_sha256": "0f7509bfaff588941173dec4af80160bf199602b030f7e065850cdfc4a4b30c6",
+    "artifact_sha256": "0f7509bfaff588941173dec4af80160bf199602b030f7e065850cdfc4a4b30c6",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/requirements.txt",
+    "source": "requirements.txt",
+    "source_sha256": "516ccc17283dbc7289831196e05c3bec6ec1e40fedef31ca991aab2bc0023c68",
+    "artifact_sha256": "516ccc17283dbc7289831196e05c3bec6ec1e40fedef31ca991aab2bc0023c68",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/SOURCE_EVIDENCE.json",
+    "source": "SOURCE_EVIDENCE.json",
+    "source_sha256": "3abaa3117f8b5429e32314978f6f036282f14b8e3d581a103cf49a3f79861cb9",
+    "artifact_sha256": "3abaa3117f8b5429e32314978f6f036282f14b8e3d581a103cf49a3f79861cb9",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/tests/test_baseline.py",
+    "source": "test_baseline.py",
+    "source_sha256": "0a9d20a43c4f8c627fc489ce23e0421f32962ca7b1a90da2c1c02039e2d0ff0d",
+    "artifact_sha256": "0a9d20a43c4f8c627fc489ce23e0421f32962ca7b1a90da2c1c02039e2d0ff0d",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/tests/test_native_environment.py",
+    "source": "test_native_environment.py",
+    "source_sha256": "5982ab90fe3eab943062854e9e12a7c9d2679fd0b9d41251d6253aeabec4c77c",
+    "artifact_sha256": "5982ab90fe3eab943062854e9e12a7c9d2679fd0b9d41251d6253aeabec4c77c",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/tools/audit_backbones.py",
+    "source": "audit_backbones.py",
+    "source_sha256": "b092d861a1846732983ee8884d8f450a619efee50bf1791a8f5c682288963a79",
+    "artifact_sha256": "b092d861a1846732983ee8884d8f450a619efee50bf1791a8f5c682288963a79",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/tools/bootstrap_reference.py",
+    "source": "bootstrap_reference.py",
+    "source_sha256": "b10d0e97c6273b8da41660a8f6ed549f165e3e168a626b1b0067cbaaa2de66be",
+    "artifact_sha256": "b10d0e97c6273b8da41660a8f6ed549f165e3e168a626b1b0067cbaaa2de66be",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/tools/native_environment.py",
+    "source": "native_environment.py",
+    "source_sha256": "48ee23763757aa4d7c8f5097677b6cba4e4f92cce92d9f9dcde00220f2340063",
+    "artifact_sha256": "48ee23763757aa4d7c8f5097677b6cba4e4f92cce92d9f9dcde00220f2340063",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/tools/validate_environment_cell.py",
+    "source": "validate_environment_cell.py",
+    "source_sha256": "923cbf03c12874ea4d71b8783d091e95100b49e026cd0154d9a24cf0ef64b63a",
+    "artifact_sha256": "923cbf03c12874ea4d71b8783d091e95100b49e026cd0154d9a24cf0ef64b63a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/native_graph_and_RF/tools/validate_real_notebooks.py",
+    "source": "validate_real_notebooks.py",
+    "source_sha256": "8033a64f38fb16b3bd575f2e1b5409bce3492256f3bf4ac30bbdc160c9c4d2e1",
+    "artifact_sha256": "8033a64f38fb16b3bd575f2e1b5409bce3492256f3bf4ac30bbdc160c9c4d2e1",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/lightgbm_reference_v3/assets/release_reference_Phish.json",
+    "source": "release_reference_Phish.json",
+    "source_sha256": "7526d70d224518e91584efc8259ed3eca2fbd6ced0037ac498f79cd6cc06c273",
+    "artifact_sha256": "7526d70d224518e91584efc8259ed3eca2fbd6ced0037ac498f79cd6cc06c273",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/lightgbm_reference_v3/assets/release_reference_Ponzi.json",
+    "source": "release_reference_Ponzi.json",
+    "source_sha256": "c7ffac86cf4436dc8d5af41fe42e25db43b888ac69a5df32eed28c3bc6c6acd8",
+    "artifact_sha256": "c7ffac86cf4436dc8d5af41fe42e25db43b888ac69a5df32eed28c3bc6c6acd8",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/lightgbm_reference_v3/baseline/__init__.py",
+    "source": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifact_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/lightgbm_reference_v3/baseline/data.py",
+    "source": "data.py",
+    "source_sha256": "38ee04c158da933a18142196c15f425478a1d92ff4b50161fe0a0722d3ba9691",
+    "artifact_sha256": "38ee04c158da933a18142196c15f425478a1d92ff4b50161fe0a0722d3ba9691",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/lightgbm_reference_v3/baseline/metrics.py",
+    "source": "metrics.py",
+    "source_sha256": "313ab9b5ae4b7cc6bce9f0f28c9648e16bc20047e9ea3e01e83991379e95a64a",
+    "artifact_sha256": "313ab9b5ae4b7cc6bce9f0f28c9648e16bc20047e9ea3e01e83991379e95a64a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/lightgbm_reference_v3/baseline/study.py",
+    "source": "study.py",
+    "source_sha256": "5c4f0f5bf6f4cc736ec90d7418f108ed00ab6948b9144fc22569c5a5d434089a",
+    "artifact_sha256": "5c4f0f5bf6f4cc736ec90d7418f108ed00ab6948b9144fc22569c5a5d434089a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/lightgbm_reference_v3/baseline/utilities.py",
+    "source": "utilities.py",
+    "source_sha256": "d9b424fb679efd9942463f9b6eb44d11ff160043540877bee87a559612a31805",
+    "artifact_sha256": "d9b424fb679efd9942463f9b6eb44d11ff160043540877bee87a559612a31805",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/lightgbm_reference_v3/Phish/04_Phish_LightGBM_BASELINE_X14_RUN_ALL.ipynb",
+    "source": "04_Phish_LightGBM_BASELINE_X14_RUN_ALL.ipynb",
+    "source_sha256": "936057c99c83ce6da10e63ea7c9a4224ee792658dafb973e282e1bcb9926f079",
+    "artifact_sha256": "4c947c8cb12d75e850952f94d81b09acc07f74fca5ddfccbdbb1c0103be4b095",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/lightgbm_reference_v3/Ponzi/04_Ponzi_LightGBM_BASELINE_X14_RUN_ALL.ipynb",
+    "source": "04_Ponzi_LightGBM_BASELINE_X14_RUN_ALL.ipynb",
+    "source_sha256": "2f5e6a28f41c3761cf24df83b4df67a7712fa71232916fec1cccd2f6a10da95b",
+    "artifact_sha256": "b53a7fbc7c505688e2cf0f62bf88f7b09bef8b768fbba6549366960b8e3b736c",
+    "transformation": "Outputs and execution metadata cleared; Markdown punctuation cleaned; every code cell unchanged"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/lightgbm_reference_v3/tests/test_reference.py",
+    "source": "test_reference.py",
+    "source_sha256": "0eba33f4d78e53ea55388e07bd4a42bf1a8e51dd5e2afbbf1158f522ee367a20",
+    "artifact_sha256": "0eba33f4d78e53ea55388e07bd4a42bf1a8e51dd5e2afbbf1158f522ee367a20",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/lightgbm_reference_v3/tools/base_environment.py",
+    "source": "base_environment.py",
+    "source_sha256": "a52f83e07acdf4020865f16622315635a725fe978bd0437c288ff5bcb8d9bd2a",
+    "artifact_sha256": "a52f83e07acdf4020865f16622315635a725fe978bd0437c288ff5bcb8d9bd2a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/experiments/released_mask_reference/lightgbm_reference_v3/tools/validate_real_notebooks.py",
+    "source": "validate_real_notebooks.py",
+    "source_sha256": "0e372456ce5c4c971d187d2de89aae88a1153bda26b6a643b271220b7ce5d05e",
+    "artifact_sha256": "0e372456ce5c4c971d187d2de89aae88a1153bda26b6a643b271220b7ce5d05e",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/analysis/original/analyze.py",
+    "source": "analyze.py",
+    "source_sha256": "5d3e50703f190bc8b97ef2e8bfd68078c34f9d146ee586239c6ece74ea7ee4bb",
+    "artifact_sha256": "5d3e50703f190bc8b97ef2e8bfd68078c34f9d146ee586239c6ece74ea7ee4bb",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/analysis/original/ANALYSIS_PLAN.json",
+    "source": "ANALYSIS_PLAN.json",
+    "source_sha256": "d740ec2b8c7898b638d92bf2285093d27a36213e89994e79a1a87517d8d5b062",
+    "artifact_sha256": "d740ec2b8c7898b638d92bf2285093d27a36213e89994e79a1a87517d8d5b062",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "code/analysis/original/test_analysis.py",
+    "source": "test_analysis.py",
+    "source_sha256": "700d14749e93d9d6442bf69b86faf79af6d742f19cb2e8c254c8c1c1dfb8f2ea",
+    "artifact_sha256": "700d14749e93d9d6442bf69b86faf79af6d742f19cb2e8c254c8c1c1dfb8f2ea",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/BALANCE_OVERVIEW.csv",
+    "source": "BALANCE_OVERVIEW.csv",
+    "source_sha256": "64e8b75f260bb20a8a6fade5f0fdc9ce8706ebf4aaf60569923c1f1864dcad13",
+    "artifact_sha256": "64e8b75f260bb20a8a6fade5f0fdc9ce8706ebf4aaf60569923c1f1864dcad13",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/FEATURE_COLUMNS.csv",
+    "source": "FEATURE_COLUMNS.csv",
+    "source_sha256": "dfd82f82a1084aed561ef073be46cc38577012f37ff3f79a4a81d7465e2ab790",
+    "artifact_sha256": "dfd82f82a1084aed561ef073be46cc38577012f37ff3f79a4a81d7465e2ab790",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/main/main_PAIRED_DELTAS.csv",
+    "source": "main_PAIRED_DELTAS.csv",
+    "source_sha256": "40b2444936e47a133158a76bbd9bba1bd90f84df5c44d567a58905d10eee7b99",
+    "artifact_sha256": "40b2444936e47a133158a76bbd9bba1bd90f84df5c44d567a58905d10eee7b99",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/main/main_VERIFIED_SPLIT_MEANS.csv",
+    "source": "main_VERIFIED_SPLIT_MEANS.csv",
+    "source_sha256": "818b5cb9a90efec030f069c29b873e4bd5bc648868e093eaab08e37fde18deeb",
+    "artifact_sha256": "818b5cb9a90efec030f069c29b873e4bd5bc648868e093eaab08e37fde18deeb",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/main/main_VERIFIED_SUMMARY.csv",
+    "source": "main_VERIFIED_SUMMARY.csv",
+    "source_sha256": "4c6ec9c4cb3723dd2cbb93999d9f3acf7091f55cb1bb8d912fa7f9a9f24deed7",
+    "artifact_sha256": "4c6ec9c4cb3723dd2cbb93999d9f3acf7091f55cb1bb8d912fa7f9a9f24deed7",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/MATCH_COVERAGE_BALANCE.csv",
+    "source": "MATCH_COVERAGE_BALANCE.csv",
+    "source_sha256": "f755c4a9afd878895a5f9be0a9d4b22387448fa131d21b57d76e973762cde0e9",
+    "artifact_sha256": "f755c4a9afd878895a5f9be0a9d4b22387448fa131d21b57d76e973762cde0e9",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/MATCHED_MAIN_COMPARISON.csv",
+    "source": "MATCHED_MAIN_COMPARISON.csv",
+    "source_sha256": "e7b49a199d0d169603c86500d2f6088082fdae3e8fe18552dbf4859a7619e254",
+    "artifact_sha256": "e7b49a199d0d169603c86500d2f6088082fdae3e8fe18552dbf4859a7619e254",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/MATCHED_PAIRED_STABILITY.csv",
+    "source": "MATCHED_PAIRED_STABILITY.csv",
+    "source_sha256": "7a08e93a8b873ec9d18125eb721d791209a04d1ecd0737aa42f07b7fb20aadba",
+    "artifact_sha256": "7a08e93a8b873ec9d18125eb721d791209a04d1ecd0737aa42f07b7fb20aadba",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/MATCHED_SUMMARY.csv",
+    "source": "MATCHED_SUMMARY.csv",
+    "source_sha256": "54a33f660ec05184b97f3baabb7a2f624612477ddf3da0489909561a1a969142",
+    "artifact_sha256": "54a33f660ec05184b97f3baabb7a2f624612477ddf3da0489909561a1a969142",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/ablation/PAIRED_GROUP_CONTRIBUTIONS.csv",
+    "source": "PAIRED_GROUP_CONTRIBUTIONS.csv",
+    "source_sha256": "349107b8461bc7655a546eeea32721b6cb6f72f2c68916e8190508df5ca47e5a",
+    "artifact_sha256": "349107b8461bc7655a546eeea32721b6cb6f72f2c68916e8190508df5ca47e5a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/ablation/PAIRED_PARTITION_CONTRIBUTIONS.csv",
+    "source": "PAIRED_PARTITION_CONTRIBUTIONS.csv",
+    "source_sha256": "ed538d9d003c135cfa577bf8b129b7be8c4b8b4e2c82781741a2ffc6f2a94d10",
+    "artifact_sha256": "ed538d9d003c135cfa577bf8b129b7be8c4b8b4e2c82781741a2ffc6f2a94d10",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/ASSUMPTION_DEPENDENT_INFERENCE_SENSITIVITY.csv",
+    "source": "ASSUMPTION_DEPENDENT_INFERENCE_SENSITIVITY.csv",
+    "source_sha256": "7df8cddf81bd460506798425fca9ed238702c61b0789de2fb61ad249edb8bcf3",
+    "artifact_sha256": "7df8cddf81bd460506798425fca9ed238702c61b0789de2fb61ad249edb8bcf3",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/FULL_PAIRED_STABILITY.csv",
+    "source": "FULL_PAIRED_STABILITY.csv",
+    "source_sha256": "b6ea5428bf986dc72a2aa1ca7bf6f743430597da31fbaa2b83059e8f136ef81a",
+    "artifact_sha256": "b6ea5428bf986dc72a2aa1ca7bf6f743430597da31fbaa2b83059e8f136ef81a",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/FULL_SPLIT_MEANS.csv",
+    "source": "FULL_SPLIT_MEANS.csv",
+    "source_sha256": "9946365447f4d5ac3480dbedd2217dc15028d5c1ab9506bb471acc48b293c8d3",
+    "artifact_sha256": "9946365447f4d5ac3480dbedd2217dc15028d5c1ab9506bb471acc48b293c8d3",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/FULL_SUMMARY.csv",
+    "source": "FULL_SUMMARY.csv",
+    "source_sha256": "f063d8421c189cec81bc458cbe3bb4fc0d18fe1b8344973eb34c626f2c242bc7",
+    "artifact_sha256": "f063d8421c189cec81bc458cbe3bb4fc0d18fe1b8344973eb34c626f2c242bc7",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/MATCHED_PAIRS.csv",
+    "source": "MATCHED_PAIRS.csv",
+    "source_sha256": "e8cabe5b9469b151668d527b109a61f003910224e6f3dc1b049a6b8f8b8908d3",
+    "artifact_sha256": "e8cabe5b9469b151668d527b109a61f003910224e6f3dc1b049a6b8f8b8908d3",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/MATCHED_PER_FIT_METRICS.csv",
+    "source": "MATCHED_PER_FIT_METRICS.csv",
+    "source_sha256": "194e0b21ec26dea743062b78c924b2c6b2067f008b2ad3e8ae010e6189732032",
+    "artifact_sha256": "194e0b21ec26dea743062b78c924b2c6b2067f008b2ad3e8ae010e6189732032",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/MATCHED_SPLIT_MEANS.csv",
+    "source": "MATCHED_SPLIT_MEANS.csv",
+    "source_sha256": "741e6d9bb5743bf0975e41c02bd1f64528a1673123e92656c3f9a05bad758933",
+    "artifact_sha256": "741e6d9bb5743bf0975e41c02bd1f64528a1673123e92656c3f9a05bad758933",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/PREDICTION_COVERAGE.csv",
+    "source": "PREDICTION_COVERAGE.csv",
+    "source_sha256": "0248980964ff5f059099088b242ae9465564923c4a839916857001688c982607",
+    "artifact_sha256": "0248980964ff5f059099088b242ae9465564923c4a839916857001688c982607",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/activity_matching/TRAIN_ACTIVITY_SCALING.csv",
+    "source": "TRAIN_ACTIVITY_SCALING.csv",
+    "source_sha256": "f5c47a3d65df8abc01b5f721dc615431209aae0712e5af0c4e06b655c2ce23dd",
+    "artifact_sha256": "f5c47a3d65df8abc01b5f721dc615431209aae0712e5af0c4e06b655c2ce23dd",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "results/released_mask_reference/current_summary.csv",
+    "source": "BASELINE_REFERENCE_CURRENT_SUMMARY.csv",
+    "source_sha256": "864dbf3d31641c0f92cbd1054728b0f5d13966429a82a9140e1b7e973a5b8abc",
+    "artifact_sha256": "864dbf3d31641c0f92cbd1054728b0f5d13966429a82a9140e1b7e973a5b8abc",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "figures/paper/fig01.pdf",
+    "source": "Fig1.drawio.pdf",
+    "source_sha256": "84f4adfe81f8ca81f66a5359dd90a5050107c337bc96e3c76d174d9975512829",
+    "artifact_sha256": "84f4adfe81f8ca81f66a5359dd90a5050107c337bc96e3c76d174d9975512829",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "figures/paper/fig02.pdf",
+    "source": "Fig2.drawio.pdf",
+    "source_sha256": "74bf1b27fb0049e59861653ec7b3c917108b3cc71fd302181953c22616dafb4e",
+    "artifact_sha256": "74bf1b27fb0049e59861653ec7b3c917108b3cc71fd302181953c22616dafb4e",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "figures/paper/fig03.pdf",
+    "source": "Fig3.drawio.pdf",
+    "source_sha256": "1363276dc5052b04788d288ef7a5da29cdf25febe0c1496d98bb45d5e646aee4",
+    "artifact_sha256": "1363276dc5052b04788d288ef7a5da29cdf25febe0c1496d98bb45d5e646aee4",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "figures/paper/fig04.pdf",
+    "source": "Fig4.drawio.pdf",
+    "source_sha256": "676b3973b2952ad983d1e999176c3f865d55c84f223fc0a0d46ea57d360e8be6",
+    "artifact_sha256": "676b3973b2952ad983d1e999176c3f865d55c84f223fc0a0d46ea57d360e8be6",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "figures/paper/fig05.pdf",
+    "source": "Fig5.drawio.pdf",
+    "source_sha256": "2e5f5e48a1a95ede587192119765d78d6925daf42ae971d5eba03d8c14e42997",
+    "artifact_sha256": "2e5f5e48a1a95ede587192119765d78d6925daf42ae971d5eba03d8c14e42997",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "configs/FEATURE_COLUMNS.csv",
+    "source": "FEATURE_COLUMNS.csv",
+    "source_sha256": "dfd82f82a1084aed561ef073be46cc38577012f37ff3f79a4a81d7465e2ab790",
+    "artifact_sha256": "dfd82f82a1084aed561ef073be46cc38577012f37ff3f79a4a81d7465e2ab790",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "configs/FEATURE_DEFINITION.json",
+    "source": "FEATURE_DEFINITION.json",
+    "source_sha256": "4d2dc09665081cc5c976fd697af30d15fa64bad44c986f0f714d7c3a5d74f8ab",
+    "artifact_sha256": "4d2dc09665081cc5c976fd697af30d15fa64bad44c986f0f714d7c3a5d74f8ab",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "configs/GROUP_COLUMNS.csv",
+    "source": "GROUP_COLUMNS.csv",
+    "source_sha256": "34b9001937055ea19153e1d4fd522f2be2755786c867fb890ff988a8dd752a22",
+    "artifact_sha256": "34b9001937055ea19153e1d4fd522f2be2755786c867fb890ff988a8dd752a22",
+    "transformation": "Byte-identical copy"
+  },
+  {
+    "file": "configs/activity_matching.json",
+    "source": "ANALYSIS_PLAN.json",
+    "source_sha256": "d740ec2b8c7898b638d92bf2285093d27a36213e89994e79a1a87517d8d5b062",
+    "artifact_sha256": "d740ec2b8c7898b638d92bf2285093d27a36213e89994e79a1a87517d8d5b062",
+    "transformation": "Byte-identical copy"
+  }
+]
