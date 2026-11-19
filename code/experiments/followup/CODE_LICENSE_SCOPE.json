@@ -1,0 +1,29 @@
+{
+  "spdx_identifier": "MIT",
+  "scope": "Author-owned feature/analysis contributions only; not a grant over upstream or mixed components",
+  "inherited_scope_snapshot": "../../../CODE_LICENSE_SCOPE.json",
+  "full_files": [
+    {
+      "path": "revision20/features.py",
+      "sha256": "dc75f21346742083015d3d14f47202b570d31675bda07e75eba212edf0428fce"
+    },
+    {
+      "path": "revision20/shuffle.py",
+      "sha256": "9b824b0d06f691e97f0353741fdf4dc35a64c8d7f67dced5a8025616e6f75771"
+    },
+    {
+      "path": "tools/paired_analysis.py",
+      "sha256": "a87f925deeb89165a461d9a6381dfb2acf4d4a81dbf167ae67219b8f7997868e"
+    },
+    {
+      "path": "run_notebook.py",
+      "sha256": "6b16a4bf71bc16e157395be21a4e6704ee5e07984e16597cae0ad1b0571f5c90"
+    },
+    {
+      "path": "configs/ANALYSIS_PLAN.json",
+      "sha256": "b85cd83a9d0299b0774244d13bb631d4b63cdf1c85b6030d40c4b3e62371013a"
+    }
+  ],
+  "mixed_notebooks": "Whole notebooks are not relicensed. Only author-owned feature/shuffle cells inherit the feature license.",
+  "upstream_notice": "THIRD_PARTY_NOTICES.md"
+}

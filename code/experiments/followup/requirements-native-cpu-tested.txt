@@ -1,0 +1,18 @@
+# Native review smoke environment: Windows x64, Python 3.12.14, CPU.
+# Full Kaggle/CUDA training is a separate environment and is not certified by this file.
+--extra-index-url https://download.pytorch.org/whl/cpu
+--find-links https://data.pyg.org/whl/torch-2.5.0+cpu.html
+--only-binary=:all:
+torch==2.5.1+cpu
+torch-geometric==2.6.1
+torch-scatter==2.1.2+pt25cpu
+torch-sparse==0.6.18+pt25cpu
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+scikit-learn==1.5.2
+lightgbm==4.6.0
+joblib==1.6.0
+threadpoolctl==3.8.0
+ipython==8.30.0
+nbformat==5.10.4

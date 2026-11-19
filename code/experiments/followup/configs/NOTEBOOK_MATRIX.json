@@ -1,0 +1,142 @@
+[
+  {
+    "dataset": "Phish",
+    "model": "metaifd",
+    "experiment": "direct",
+    "notebook": "notebooks/direct/Phish/01_Phish_MetaIFD_DIRECT20_RUN_ALL.ipynb",
+    "full_fits": 500
+  },
+  {
+    "dataset": "Phish",
+    "model": "metaifd",
+    "experiment": "shuffle",
+    "notebook": "notebooks/shuffle/Phish/01_Phish_MetaIFD_SHUFFLE20_RUN_ALL.ipynb",
+    "full_fits": 300
+  },
+  {
+    "dataset": "Phish",
+    "model": "gat",
+    "experiment": "direct",
+    "notebook": "notebooks/direct/Phish/02_Phish_GAT_DIRECT20_RUN_ALL.ipynb",
+    "full_fits": 500
+  },
+  {
+    "dataset": "Phish",
+    "model": "gat",
+    "experiment": "shuffle",
+    "notebook": "notebooks/shuffle/Phish/02_Phish_GAT_SHUFFLE20_RUN_ALL.ipynb",
+    "full_fits": 300
+  },
+  {
+    "dataset": "Phish",
+    "model": "sage",
+    "experiment": "direct",
+    "notebook": "notebooks/direct/Phish/03_Phish_GraphSAGE_DIRECT20_RUN_ALL.ipynb",
+    "full_fits": 500
+  },
+  {
+    "dataset": "Phish",
+    "model": "sage",
+    "experiment": "shuffle",
+    "notebook": "notebooks/shuffle/Phish/03_Phish_GraphSAGE_SHUFFLE20_RUN_ALL.ipynb",
+    "full_fits": 300
+  },
+  {
+    "dataset": "Phish",
+    "model": "lightgbm",
+    "experiment": "direct",
+    "notebook": "notebooks/direct/Phish/04_Phish_LightGBM_DIRECT20_RUN_ALL.ipynb",
+    "full_fits": 500
+  },
+  {
+    "dataset": "Phish",
+    "model": "lightgbm",
+    "experiment": "shuffle",
+    "notebook": "notebooks/shuffle/Phish/04_Phish_LightGBM_SHUFFLE20_RUN_ALL.ipynb",
+    "full_fits": 300
+  },
+  {
+    "dataset": "Phish",
+    "model": "rf",
+    "experiment": "direct",
+    "notebook": "notebooks/direct/Phish/05_Phish_RF_DIRECT20_RUN_ALL.ipynb",
+    "full_fits": 500
+  },
+  {
+    "dataset": "Phish",
+    "model": "rf",
+    "experiment": "shuffle",
+    "notebook": "notebooks/shuffle/Phish/05_Phish_RF_SHUFFLE20_RUN_ALL.ipynb",
+    "full_fits": 300
+  },
+  {
+    "dataset": "Ponzi",
+    "model": "metaifd",
+    "experiment": "direct",
+    "notebook": "notebooks/direct/Ponzi/01_Ponzi_MetaIFD_DIRECT20_RUN_ALL.ipynb",
+    "full_fits": 500
+  },
+  {
+    "dataset": "Ponzi",
+    "model": "metaifd",
+    "experiment": "shuffle",
+    "notebook": "notebooks/shuffle/Ponzi/01_Ponzi_MetaIFD_SHUFFLE20_RUN_ALL.ipynb",
+    "full_fits": 300
+  },
+  {
+    "dataset": "Ponzi",
+    "model": "gat",
+    "experiment": "direct",
+    "notebook": "notebooks/direct/Ponzi/02_Ponzi_GAT_DIRECT20_RUN_ALL.ipynb",
+    "full_fits": 500
+  },
+  {
+    "dataset": "Ponzi",
+    "model": "gat",
+    "experiment": "shuffle",
+    "notebook": "notebooks/shuffle/Ponzi/02_Ponzi_GAT_SHUFFLE20_RUN_ALL.ipynb",
+    "full_fits": 300
+  },
+  {
+    "dataset": "Ponzi",
+    "model": "sage",
+    "experiment": "direct",
+    "notebook": "notebooks/direct/Ponzi/03_Ponzi_GraphSAGE_DIRECT20_RUN_ALL.ipynb",
+    "full_fits": 500
+  },
+  {
+    "dataset": "Ponzi",
+    "model": "sage",
+    "experiment": "shuffle",
+    "notebook": "notebooks/shuffle/Ponzi/03_Ponzi_GraphSAGE_SHUFFLE20_RUN_ALL.ipynb",
+    "full_fits": 300
+  },
+  {
+    "dataset": "Ponzi",
+    "model": "lightgbm",
+    "experiment": "direct",
+    "notebook": "notebooks/direct/Ponzi/04_Ponzi_LightGBM_DIRECT20_RUN_ALL.ipynb",
+    "full_fits": 500
+  },
+  {
+    "dataset": "Ponzi",
+    "model": "lightgbm",
+    "experiment": "shuffle",
+    "notebook": "notebooks/shuffle/Ponzi/04_Ponzi_LightGBM_SHUFFLE20_RUN_ALL.ipynb",
+    "full_fits": 300
+  },
+  {
+    "dataset": "Ponzi",
+    "model": "rf",
+    "experiment": "direct",
+    "notebook": "notebooks/direct/Ponzi/05_Ponzi_RF_DIRECT20_RUN_ALL.ipynb",
+    "full_fits": 500
+  },
+  {
+    "dataset": "Ponzi",
+    "model": "rf",
+    "experiment": "shuffle",
+    "notebook": "notebooks/shuffle/Ponzi/05_Ponzi_RF_SHUFFLE20_RUN_ALL.ipynb",
+    "full_fits": 300
+  }
+]

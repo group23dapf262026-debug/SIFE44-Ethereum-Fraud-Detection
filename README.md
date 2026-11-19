@@ -13,6 +13,7 @@ SIFE44 describes the distribution, direction, counterparty composition, and inte
 | Goal | Instructions |
 |---|---|
 | Inspect the main numbers without training | Run `python code/analysis/reproduce_tables.py` |
+| Replay Direct and Shuffle comparisons without training | Run `python code/analysis/reproduce_followup.py` |
 | Replay exploratory activity matching from saved TEST predictions | Run `python code/analysis/reproduce_matching.py` |
 | Check integrity, English notebook sources, and frozen code identities | Run `python code/verify_repository.py` |
 | Train on the original graph inputs | Follow [Reproduction](docs/REPRODUCTION.md) and [Data](DATA.md) |
@@ -29,6 +30,7 @@ code/
     main/                         # Ten standalone 20-partition notebooks and frozen source modules
     ablation/                     # Ten group-removal notebooks with their own full-input controls
     released_mask_reference/      # Ten X14 reference notebooks; kept separate from the main cohort
+    followup/                     # Twenty standalone Direct and Shuffle notebooks
   analysis/                       # Table replay and frozen activity matching
   figures/                        # Statistical redraw scripts, separate from the supplied paper PDFs
   run_notebook.py                  # Command-line execution with explicit local input/output paths
@@ -39,6 +41,7 @@ results/
   ablation/                       # Metrics and group contributions from independently retrained controls
   activity_matching/              # Recorded matching, balance, coverage and descriptive comparisons
   released_mask_reference/        # Original-mask reference evidence; never pooled into the main study
+  followup/                       # Direct and Shuffle TEST fit metrics and paired comparisons
   cohorts/                        # Compact root records and the 40 strict partition memberships
 figures/paper/                    # Five unmodified author-supplied PDF exports used in the manuscript
 docs/                            # Reproduction, protocol, validation and provenance guidance
@@ -65,6 +68,19 @@ Meta-IFD does not support Pure36-only in this implementation because its public 
 - Average five seeds within each partition first; then report the mean and sample SD of 20 partition means. These are **overlapping repeated holdouts**, not 100 independent datasets.
 
 The main study contains **3,800 fits**. The group-removal follow-up contains **5,000 fits**, with separate retrained full-input controls. Original-mask references use their original cohorts and are a separate implementation comparison, not an exact reproduction claim for every published score.
+
+## Direct and Shuffle follow-ups
+
+The [follow-up package](code/experiments/followup/README.md) includes
+20 notebooks, their Python implementations, fixed settings, and
+analysis instructions. The [saved results](results/followup) cover
+5,000 Direct TEST fits and 3,000 Shuffle TEST fits.
+
+The Direct comparison uses an adapted UFE12 baseline at the same
+incident-record scope as SIFE44. It includes combined UFE12 and
+SIFE44/Pure36 configurations. The Shuffle comparison keeps X14 and
+compares aligned and shuffled SIFE44 augmentation. The two suites
+have separate corrected-resampling and Holm analyses.
 
 ## Results at a glance
 
