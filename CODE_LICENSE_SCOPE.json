@@ -14,7 +14,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "c15e80efb22534cc6a686de79ecec0f536b7913b32481945ffade92f9cc1aa9f"
+      "sha256": "727a96030247e9a96adc2ae537a1613d72da07b1413fa563504d0e0f3fab4e1e"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -54,7 +54,7 @@
     },
     {
       "path": "code/figures/redraw_results.py",
-      "sha256": "a155d6c47ec671016b2ecc924da9bca86c3e8b3889165672403ec04ec17f50bc"
+      "sha256": "b393b265874b827e9266d3455e4bab34c2a2cc190cbda59e396a688352bc76aa"
     },
     {
       "path": "code/run_notebook.py",
@@ -74,7 +74,7 @@
     },
     {
       "path": "docs/PROVENANCE.md",
-      "sha256": "4f8bc240b93ce644e9fe73b42715cecb66c246754d7cc4deb80d104eaa96333b"
+      "sha256": "25c73217c024645ddebfe9fa0cb2d50cd12eb8577671ddf5bd04d6666c28e4d6"
     },
     {
       "path": "docs/REPRODUCTION.md",

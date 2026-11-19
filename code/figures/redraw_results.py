@@ -18,6 +18,40 @@ def save(fig, output, name):
     fig.savefig(output / (name + '.png'), dpi=200, bbox_inches='tight')
     plt.close(fig)
 
+def redraw_followup(repo, output):
+    fig, axes = plt.subplots(2, 2, figsize=(8.5, 5.2), sharex='row', sharey=True)
+    specs = (
+        ('direct', [('X14_SIFE44', 'X14_UFE12', '#222222', 's', 0, 'SIFE44 vs UFE12')]),
+        ('shuffle', [
+            ('X14_SIFE44', 'X14', BLUE, 'o', -.12, 'Aligned SIFE44 vs X14'),
+            ('X14_SHUFFLED_SIFE44', 'X14', ORANGE, 'D', .12, 'Shuffled SIFE44 vs X14'),
+        ]),
+    )
+    for i, (suite, comparisons) in enumerate(specs):
+        data = pd.read_csv(repo / 'results/followup' / suite / 'corrected_sensitivity.csv')
+        indexed = data.set_index(['dataset', 'candidate', 'control', 'model']).sort_index()
+        if not indexed.index.is_unique:
+            raise ValueError(f'Duplicate comparison rows in the {suite} results')
+        for j, dataset in enumerate(('Phish', 'Ponzi')):
+            ax = axes[i, j]
+            for candidate, control, color, marker, offset, label in comparisons:
+                rows = indexed.loc[dataset, candidate, control].loc[MODELS]
+                mean = rows.mean_delta_pp
+                interval = [mean - rows.pointwise95_low_pp, rows.pointwise95_high_pp - mean]
+                ax.errorbar(mean, np.arange(len(MODELS)) + offset, xerr=interval,
+                            fmt=marker, color=color, capsize=2, markersize=4, label=label)
+            ax.set(yticks=range(len(MODELS)), yticklabels=NAMES,
+                   title=f'({chr(97 + 2*i + j)}) {dataset} · {suite.capitalize()}')
+            ax.axvline(0, color='#666666', lw=.8)
+            ax.grid(axis='x', alpha=.2)
+            if j == 0:
+                ax.legend(fontsize=7)
+            if i == 1:
+                ax.set_xlabel('Difference in test Macro-F1 (pp)')
+    axes[0, 0].invert_yaxis()
+    fig.tight_layout()
+    save(fig, output, 'fig03_direct_shuffle')
+
 def main(repo, output):
     output.mkdir(parents=True, exist_ok=True)
     plt.rcParams.update({'font.size': 9, 'pdf.fonttype': 42, 'svg.fonttype': 'none'})
@@ -34,6 +68,7 @@ def main(repo, output):
         ax.set(yticks=range(5), yticklabels=NAMES, xlabel='Test Macro-F1 (%)', title=ds)
         ax.invert_yaxis(); ax.grid(axis='x', alpha=.2); ax.legend(fontsize=7)
     fig.tight_layout(); save(fig, output, 'fig03_main_comparison')
+    redraw_followup(repo, output)
     group = pd.read_csv(repo / 'results/ablation/PAIRED_GROUP_CONTRIBUTIONS.csv')
     styles = [('without_distribution20', 'distribution20', '#139d81'),
               ('without_flow8', 'flow8', ORANGE), ('without_counterparty8', 'counterparty8', '#cc69a0'),

@@ -17,5 +17,6 @@ jobs:
       - run: python code/verify_repository.py
       - run: python code/analysis/reproduce_tables.py
       - run: python code/analysis/reproduce_followup.py
+      - run: python code/figures/redraw_results.py
       - run: python -m unittest discover -s tests -p test_features.py -v
         working-directory: code/experiments/main

@@ -20,7 +20,7 @@ Main metric replay uses all main TEST fit records. Group-removal replay uses all
 
 ## Figures
 
-The five `figures/paper` PDFs are unchanged copies of the manuscript exports. Figure 1 and Figure 2 are author-maintained schematics; their editable draw.io source is not inferred from the PDF. The statistical redraw script recreates data content for Figures 3–5 in a separate output directory; it does not claim identical draw.io styling or generate missing schematic source.
+The original `figures/paper` PDFs are byte-identical copies of the initial manuscript exports. The [revised manuscript figures](../figures/revised_paper) are byte-identical copies of the five PDFs used to check the revised LaTeX layout. Their editable source contains the first five manuscript pages of the shared draw.io file. The redraw script recreates statistical plots for the Direct and Shuffle follow-ups, group removal, and activity matching in a separate output directory.
 
 ## Scope
 

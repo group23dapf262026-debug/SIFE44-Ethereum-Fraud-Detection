@@ -6,7 +6,7 @@ This repository contains readable experiment notebooks, the underlying Python im
 
 SIFE44 describes the distribution, direction, counterparty composition, and intensity of typed incident records. Pure36 removes eight intensity descriptors. Its stated scale invariance is a descriptor-level property under specified rescaling with fixed topology and record support; it does **not** establish independence from transaction value or invariance of a classifier that also receives X14.
 
-![SIFE44 construction and paired evaluation pipeline](figures/preview/pipeline.png)
+![SIFE44 construction and paired evaluation pipeline](figures/preview/revised_pipeline.png)
 
 ## Start here
 
@@ -43,7 +43,8 @@ results/
   released_mask_reference/        # Original-mask reference evidence; never pooled into the main study
   followup/                       # Direct and Shuffle TEST fit metrics and paired comparisons
   cohorts/                        # Compact root records and the 40 strict partition memberships
-figures/paper/                    # Five unmodified author-supplied PDF exports used in the manuscript
+figures/revised_paper/            # Current five manuscript PDFs and editable draw.io source
+figures/paper/                    # Original five manuscript exports
 docs/                            # Reproduction, protocol, validation and provenance guidance
 provenance/                      # Original archive hashes, file mappings, notebook code-cell identities
 generated/                       # Outputs of local checks and replays; ignored by Git
@@ -104,7 +105,7 @@ python code/figures/redraw_results.py
 
 `reproduce_tables.py` rebuilds summaries from all 3,800 main and 5,000 ablation TEST fit records and compares them with the recorded exports. `reproduce_matching.py` freezes all 40 matching memberships before opening predictions, verifies the pair identities and balance diagnostics, and replays 3,800 matched evaluations. It does not train or tune a classifier. Use a new `--output` directory when rerunning matching; the script refuses to overwrite a completed replay.
 
-The supplied `figures/paper/fig01.pdf` through `fig05.pdf` are the manuscript exports. The redraw command regenerates statistical plot content for inspection; it does not claim pixel-identical reconstruction of the team's draw.io layout and does not overwrite those PDFs.
+The current [manuscript figures](figures/revised_paper) use the same filenames as the LaTeX source. Figure 3 shows the Direct and Shuffle comparisons. The folder also includes the five-page editable draw.io source. The original exports remain in [figures/paper](figures/paper). The redraw command writes statistical plots to a separate output directory.
 
 ## Training notebooks
 
