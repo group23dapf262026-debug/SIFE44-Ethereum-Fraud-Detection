@@ -21,7 +21,8 @@ def main(repo, anonymous_view=False):
     assert manifest.exists(), 'MANIFEST.sha256 is missing'
     included = []
     presentation_files = {'README.md', 'CITATION.cff', 'LICENSE', 'LICENSE.md',
-                          'THIRD_PARTY_NOTICES.md', 'CODE_LICENSE_SCOPE.json'}
+                          'THIRD_PARTY_NOTICES.md', 'CODE_LICENSE_SCOPE.json',
+                          'code/experiments/followup/LICENSE'}
     presentation_files.update(p.relative_to(repo).as_posix() for p in (repo/'docs').glob('*.md'))
     skipped_presentation = []
     for line in manifest.read_text(encoding='utf-8').splitlines():
